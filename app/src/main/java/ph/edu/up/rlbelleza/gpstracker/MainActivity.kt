@@ -26,17 +26,23 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //Location Callback is a function that runs whenever a new location value is obtained
+        //This is passed to the Fused Location Provider Client
         locationCallback = object : LocationCallback() {
             override fun onLocationResult(locationResult: LocationResult?) {
-                locationResult ?: return
-                locationtextview.text = ""
+                locationResult ?: return //IF NULL, RETURN
+                locationtextview.text = "" //empty the text field
+                //print all locations
                 for (location in locationResult.locations) {
                     locationtextview.text = "${locationtextview.text}Latitude : ${location.latitude}\nLongitude : ${location.longitude}\n"
                 }
             }
         }
-
+        //Fused Location Provider Client from Google Api for location retrieval
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(this)
+
+        //Permission check asking if user has already permitted location functionality for the app
+        //The user's input it sent to the onRequestPermissionsResult method
         val hasFineLocationPermission =
             ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION)
         val hasCourseLocationPermission =
@@ -51,53 +57,52 @@ class MainActivity : AppCompatActivity() {
                 )
             }
         }else{
+            //if permission already granted, run
             runGPSTracker()
         }
 
     }
 
-    override fun onRequestPermissionsResult(
-        requestCode: Int,
-        permissions: Array<out String>,
-        grantResults: IntArray
-    ) {
+    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
         when (requestCode) {
+            //request code is arbitrary. it just has to match the request code sent by the permission check
             1001 -> if (grantResults[0] == PackageManager.PERMISSION_GRANTED && grantResults[1] == PackageManager.PERMISSION_GRANTED){
+                //if permission already granted, run
                 runGPSTracker()
             }
             else -> super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         }
     }
 
-    @SuppressLint("MissingPermission")
+    override fun onResume() {
+        super.onResume()
+        //start updates when on the app again
+        if (requestingLocationUpdates) startLocationUpdates()
+    }
+
+    override fun onPause() {
+        super.onPause()
+        //stop updates when leaving the app
+        stopLocationUpdates()
+    }
+
     fun runGPSTracker() {
-//        fusedLocationClient.lastLocation.addOnSuccessListener { location : Location? ->
-//                if (location != null) locationtextview.text = "Latitude : ${location.latitude}\nLongitude : ${location.longitude}"
-//            }
         requestingLocationUpdates = true
         startLocationUpdates()
     }
 
-    override fun onResume() {
-        super.onResume()
-        if (requestingLocationUpdates) startLocationUpdates()
-    }
-
-    @SuppressLint("MissingPermission")
+    @SuppressLint("MissingPermission")  //Suppressed the MissingPermission Error because Android Studio ain't smart enough to detect my permission checks
     private fun startLocationUpdates() {
+        //location request is basically the settings I want for the retrieval
         val locationRequest = LocationRequest.create()?.apply {
             interval = 10000
             fastestInterval = 5000
             priority = LocationRequest.PRIORITY_HIGH_ACCURACY
         }
+        //this actually runs the location retrieval
         fusedLocationClient.requestLocationUpdates(locationRequest,
             locationCallback,
             Looper.getMainLooper())
-    }
-
-    override fun onPause() {
-        super.onPause()
-        stopLocationUpdates()
     }
 
     private fun stopLocationUpdates() {
