@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name='GPSTracker'
+rootProject.name = "Oceans13Mod7"
