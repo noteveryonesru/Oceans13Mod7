@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Oceans13Mod7</string>
+    <string name="launch_activity">Open App</string>
+    <string name="location_unknown">Location Unknown</string>
+    <string name="location_updates_label">Location Updates</string>
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but it is needed for core functionality.</string>
+    <string name="settings">Settings</string>
+    <string name="ok">OK</string>
+    <string name="request_location_updates">Request location updates</string>
+    <string name="remove_location_updates">Stop</string>
+    <string name="location_updated">Location Updated: %1$s</string>
+</resources>
