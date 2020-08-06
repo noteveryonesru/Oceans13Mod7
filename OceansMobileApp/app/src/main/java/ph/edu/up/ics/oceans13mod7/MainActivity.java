@@ -17,7 +17,6 @@ import android.content.pm.PackageManager;
 import android.location.Location;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.Handler;
 import android.os.IBinder;
 import android.preference.PreferenceManager;
 import android.provider.Settings;
@@ -47,6 +46,8 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
     private Button stopButton;
     private TextView latitudeTextView;
     private TextView longitudeTextView;
+    private TextView speedTextView;
+    private TextView bearingTextView;
 
     private final ServiceConnection mServiceConnection = new ServiceConnection() {
         @Override
@@ -70,6 +71,8 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
         oceansBroadcastReceiver = new OceansBroadcastReceiver();
         latitudeTextView = findViewById(R.id.latitudeTextView);
         longitudeTextView = findViewById(R.id.longitudeTextView);
+        speedTextView = findViewById(R.id.speedTextView);
+        bearingTextView = findViewById(R.id.bearingTextView);
         if (Utils.requestingLocationUpdates(this)) {
             if (!checkPermissions()) {
                 requestPermissions();
@@ -218,8 +221,12 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
     private void updateTextViews(Location location){
         String latitudeString = "Latitude : " + location.getLatitude();
         String longitudeString = "Longitude : " + location.getLongitude();
+        String speedString = "Speed : " + location.getSpeed();
+        String bearingString = "Bearing : " + location.getBearing();
         latitudeTextView.setText(latitudeString);
         longitudeTextView.setText(longitudeString);
+        speedTextView.setText(speedString);
+        bearingTextView.setText(bearingString);
     }
 
     private class OceansBroadcastReceiver extends BroadcastReceiver {
