@@ -16,9 +16,10 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.IBinder;
-import android.preference.PreferenceManager;
+import androidx.preference.PreferenceManager;
 import android.provider.Settings;
 import android.util.Log;
 import android.view.View;
@@ -27,6 +28,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.snackbar.Snackbar;
+
+import java.lang.ref.WeakReference;
+import java.util.List;
+
+import ph.edu.up.ics.oceans13mod7.database.OceansDatabase;
+import ph.edu.up.ics.oceans13mod7.database.Record;
 
 public class MainActivity extends AppCompatActivity implements SharedPreferences.OnSharedPreferenceChangeListener {
 
@@ -229,14 +236,48 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
         bearingTextView.setText(bearingString);
     }
 
+    public void mainToast(String s){
+        Toast.makeText(this, s, Toast.LENGTH_LONG).show();
+    }
+
     private class OceansBroadcastReceiver extends BroadcastReceiver {
         @Override
         public void onReceive(Context context, Intent intent) {
             Location location = intent.getParcelableExtra(OceansLocationService.EXTRA_LOCATION);
             if (location != null) {
-                Toast.makeText(MainActivity.this, Utils.getLocationText(location), Toast.LENGTH_SHORT).show();
+                //Toast.makeText(MainActivity.this, Utils.getLocationText(location), Toast.LENGTH_SHORT).show();
+                AsyncToast runner = new AsyncToast(OceansDatabase.getInstance(context), new WeakReference<MainActivity>(MainActivity.this));
+                runner.execute(MainActivity.this);
+                //List<Integer> ids = OceansDatabase.getInstance(context).recordDao().getIds();
+                //Toast.makeText(MainActivity.this, ids.toString(), Toast.LENGTH_LONG).show();
                 updateTextViews(location);
             }
+        }
+    }
+
+    public static class AsyncToast extends AsyncTask<Context, Void, Void> {
+        private OceansDatabase db;
+        private String s;
+        private WeakReference<MainActivity> activityReference;
+
+        public AsyncToast(OceansDatabase db, WeakReference<MainActivity> activityReference){
+            this.db = db;
+            this.activityReference = activityReference;
+        }
+        @Override
+        protected Void doInBackground(Context... contexts) {
+            List<Integer> ids = db.recordDao().getIds();
+            s = ids.toString();
+            return null;
+        }
+
+
+        @Override
+        protected void onPostExecute(Void aVoid) {
+            super.onPostExecute(aVoid);
+            MainActivity activity = activityReference.get();
+            if (activity == null || activity.isFinishing()) return;
+            activity.mainToast(s);
         }
     }
 

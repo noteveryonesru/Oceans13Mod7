@@ -10,6 +10,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.location.Location;
+import android.os.AsyncTask;
 import android.os.Binder;
 import android.os.Build;
 import android.os.Handler;
@@ -21,6 +22,8 @@ import androidx.annotation.NonNull;
 import androidx.core.app.NotificationCompat;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
+import androidx.preference.PreferenceManager;
+
 import android.util.Log;
 
 import com.google.android.gms.location.FusedLocationProviderClient;
@@ -30,6 +33,9 @@ import com.google.android.gms.location.LocationResult;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+
+import ph.edu.up.ics.oceans13mod7.database.OceansDatabase;
+import ph.edu.up.ics.oceans13mod7.database.Record;
 
 public class OceansLocationService extends Service {
     private static final String PACKAGE_NAME = "ph.edu.up.ics.oceans13mod7";
@@ -67,11 +73,14 @@ public class OceansLocationService extends Service {
     //current Location
     private Location mLocation;
 
+    private OceansDatabase oceansDatabaseInstance;
+
     public OceansLocationService() {
     }
 
     @Override
     public void onCreate() {
+        oceansDatabaseInstance = OceansDatabase.getInstance(this);
         mFusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
 
         mLocationCallback = new LocationCallback() {
@@ -154,6 +163,7 @@ public class OceansLocationService extends Service {
     }
 
     public void requestLocationUpdates() {
+        Utils.incrementSessionId(this);
         Utils.setRequestingLocationUpdates(this, true);
         startService(new Intent(getApplicationContext(), OceansLocationService.class));
         try {
@@ -219,10 +229,16 @@ public class OceansLocationService extends Service {
     private void onNewLocation(Location location) {
         mLocation = location;
         // Notify anyone listening for broadcasts about the new location.
+        if (location != null) {
+            OceansDatabase.AsyncInsert runner = new OceansDatabase.AsyncInsert(OceansDatabase.getInstance(this), Utils.getLastSessionId(this), location.getLatitude(), location.getLongitude(), location.getBearing(), location.getSpeed());
+            runner.execute();
+        }
+
         Intent intent = new Intent(ACTION_BROADCAST);
         intent.putExtra(EXTRA_LOCATION, location);
         LocalBroadcastManager.getInstance(getApplicationContext()).sendBroadcast(intent);
         // Update notification content if running as a foreground service.
+
         if (serviceIsRunningInForeground(this)) {
             mNotificationManager.notify(NOTIFICATION_ID, createNotification());
         }
