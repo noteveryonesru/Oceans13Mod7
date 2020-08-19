@@ -50,7 +50,7 @@ exports.save = (req,res) =>{
 			console.log('Not Saved!')
 		}
 		})
-	res.send(true)
+	res.send({Status: 1})
 }
 
 //endpints for displaying the values from the database
@@ -90,16 +90,16 @@ exports.display = (req,res) =>{
 		}
 
 		});
-	res.send(true)
+	res.send({Status: 1})
 	}
 
-//Getting the MacAddresses
+//Getting the All the Values from the database
 exports.findAll = (req,res) =>{
 	Boat.find({}, (err,boats)=>{
 		var boat = []
 		for(var i =0; i< boats.length;i++){
-			boat.push(boats[i].MacAddress)
+			boat.push(boats[i])
 		}
-		res.send(boat);
+		res.send({"boat":boat});
 	})
 }
