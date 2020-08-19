@@ -50,7 +50,8 @@ class Home extends React.Component{
           });
 
         //Get the center at the Philippines
-    	const PhilippinesLonLat = fromLonLat([121.7740, 12.8797]);
+    	//const PhilippinesLonLat = fromLonLat([121.7740, 12.8797]);//Zoom:5
+        const LBLonLat = fromLonLat([121.238603, 14.164747]); // UP Los Banos
         const map = new Map({
           layers: [
             new TileLayer({
@@ -60,8 +61,8 @@ class Home extends React.Component{
           ],
           target: 'map',
           view: new View({
-            center: PhilippinesLonLat,
-            zoom: 5
+            center: LBLonLat,
+            zoom: 17
           })
         });
 
