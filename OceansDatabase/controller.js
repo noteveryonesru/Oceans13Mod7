@@ -14,8 +14,8 @@ var Record = new mongoose.Schema({
 	TimeStamp: Date,
 	Latitude: Number,
 	Longitude: Number,
-	Bearing: Number,
-	Acceleration: Number
+	Heading: Number,
+	Speed: Number
 })
 
 var Session = new mongoose.Schema({
@@ -50,7 +50,7 @@ exports.save = (req,res) =>{
 			console.log('Not Saved!')
 		}
 		})
-	res.send(true)
+	res.send({Status: 1})
 }
 
 //endpints for displaying the values from the database
@@ -73,8 +73,8 @@ exports.display = (req,res) =>{
 					console.log(ArrayOfRecords[k].TimeStamp)
 					console.log(ArrayOfRecords[k].Latitude)
 					console.log(ArrayOfRecords[k].Longitude)
-					console.log(ArrayOfRecords[k].Bearing)
-					console.log(ArrayOfRecords[k].Acceleration)
+					console.log(ArrayOfRecords[k].Heading)
+					console.log(ArrayOfRecords[k].Speed)
 				}
 				//ArrayOfCatches
 				var ArrayOfCatches = boats[i].ArrayOfSessions[j].ArrayOfCatches
@@ -90,16 +90,16 @@ exports.display = (req,res) =>{
 		}
 
 		});
-	res.send(true)
+	res.send({Status: 1})
 	}
 
-//Getting the MacAddresses
+//Getting the All the Values from the database
 exports.findAll = (req,res) =>{
 	Boat.find({}, (err,boats)=>{
 		var boat = []
 		for(var i =0; i< boats.length;i++){
-			boat.push(boats[i].MacAddress)
+			boat.push(boats[i])
 		}
-		res.send(boat);
+		res.send({"boat":boat});
 	})
 }

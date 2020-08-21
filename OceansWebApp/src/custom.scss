@@ -1,0 +1,17 @@
+// Override default variables before the import
+$body-bg: #fff;
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+$theme-colors: (
+    "info": tomato,
+    "danger": teal
+);
+
+.header { color: $blue; }
+#bodyContent{
+	margin-left:20px;
+	margin-right:20px;
+}
+.text { color: $black; }
+
