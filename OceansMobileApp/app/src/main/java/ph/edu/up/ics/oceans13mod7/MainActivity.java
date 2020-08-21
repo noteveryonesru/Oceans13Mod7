@@ -1,10 +1,5 @@
 package ph.edu.up.ics.oceans13mod7;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
-import androidx.localbroadcastmanager.content.LocalBroadcastManager;
-
 import android.Manifest;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
@@ -16,26 +11,32 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.net.Uri;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.IBinder;
-import androidx.preference.PreferenceManager;
 import android.provider.Settings;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
+import androidx.preference.PreferenceManager;
+
 import com.google.android.material.snackbar.Snackbar;
 
-import java.lang.ref.WeakReference;
+import java.net.NetworkInterface;
+import java.util.Collections;
 import java.util.List;
 
 import ph.edu.up.ics.oceans13mod7.database.OceansDatabase;
-import ph.edu.up.ics.oceans13mod7.database.Record;
+import ph.edu.up.ics.oceans13mod7.rest.OceansClient;
 
-public class MainActivity extends AppCompatActivity implements SharedPreferences.OnSharedPreferenceChangeListener {
+public class MainActivity extends AppCompatActivity implements SharedPreferences.OnSharedPreferenceChangeListener, UploadLocker {
 
     private static final String TAG = MainActivity.class.getSimpleName();
     private static final int REQUEST_PERMISSIONS_REQUEST_CODE = 1001;
@@ -51,10 +52,12 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
     // UI elements.
     private Button startButton;
     private Button stopButton;
+    private Button uploadButton;
+    private EditText urlBox;
     private TextView latitudeTextView;
     private TextView longitudeTextView;
     private TextView speedTextView;
-    private TextView bearingTextView;
+    private TextView headingTextView;
 
     private final ServiceConnection mServiceConnection = new ServiceConnection() {
         @Override
@@ -79,7 +82,7 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
         latitudeTextView = findViewById(R.id.latitudeTextView);
         longitudeTextView = findViewById(R.id.longitudeTextView);
         speedTextView = findViewById(R.id.speedTextView);
-        bearingTextView = findViewById(R.id.bearingTextView);
+        headingTextView = findViewById(R.id.headingTextView);
         if (Utils.requestingLocationUpdates(this)) {
             if (!checkPermissions()) {
                 requestPermissions();
@@ -95,6 +98,8 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
 
         startButton = findViewById(R.id.startButton);
         stopButton = findViewById(R.id.stopButton);
+        uploadButton = findViewById(R.id.uploadButton);
+        urlBox = findViewById(R.id.urlBox);
 
         startButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -111,6 +116,22 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
             @Override
             public void onClick(View view) {
                 oceansService.removeLocationUpdates();
+            }
+        });
+
+        final String macAddress = getMacAddr();
+
+        uploadButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String url = urlBox.getText().toString();
+                if (!url.isEmpty()){
+                    lock();
+                    OceansClient oceansClient = new OceansClient(url);
+                    oceansClient.uploadRecords(MainActivity.this, OceansDatabase.getInstance(MainActivity.this), macAddress);
+                }else{
+                    mainToast("Url cannot be empty");
+                }
             }
         });
 
@@ -219,9 +240,11 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
         if (requestingLocationUpdates) {
             startButton.setEnabled(false);
             stopButton.setEnabled(true);
+            uploadButton.setEnabled(false);
         } else {
             startButton.setEnabled(true);
             stopButton.setEnabled(false);
+            uploadButton.setEnabled(true);
         }
     }
 
@@ -229,15 +252,34 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
         String latitudeString = "Latitude : " + location.getLatitude();
         String longitudeString = "Longitude : " + location.getLongitude();
         String speedString = "Speed : " + location.getSpeed();
-        String bearingString = "Bearing : " + location.getBearing();
+        String headingString = "Heading : " + location.getBearing();
         latitudeTextView.setText(latitudeString);
         longitudeTextView.setText(longitudeString);
         speedTextView.setText(speedString);
-        bearingTextView.setText(bearingString);
+        headingTextView.setText(headingString);
     }
 
     public void mainToast(String s){
         Toast.makeText(this, s, Toast.LENGTH_LONG).show();
+    }
+
+    @Override
+    public void lock() {
+        startButton.setEnabled(false);
+        stopButton.setEnabled(false);
+        uploadButton.setEnabled(false);
+    }
+
+    @Override
+    public void unlock() {
+        startButton.setEnabled(true);
+        stopButton.setEnabled(false);
+        uploadButton.setEnabled(true);
+    }
+
+    @Override
+    public void toastError(String s) {
+        mainToast(s);
     }
 
     private class OceansBroadcastReceiver extends BroadcastReceiver {
@@ -246,8 +288,8 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
             Location location = intent.getParcelableExtra(OceansLocationService.EXTRA_LOCATION);
             if (location != null) {
                 //Toast.makeText(MainActivity.this, Utils.getLocationText(location), Toast.LENGTH_SHORT).show();
-                AsyncToast runner = new AsyncToast(OceansDatabase.getInstance(context), new WeakReference<MainActivity>(MainActivity.this));
-                runner.execute(MainActivity.this);
+                //AsyncToast runner = new AsyncToast(OceansDatabase.getInstance(context), new WeakReference<MainActivity>(MainActivity.this));
+                //runner.execute(MainActivity.this);
                 //List<Integer> ids = OceansDatabase.getInstance(context).recordDao().getIds();
                 //Toast.makeText(MainActivity.this, ids.toString(), Toast.LENGTH_LONG).show();
                 updateTextViews(location);
@@ -255,30 +297,58 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
         }
     }
 
-    public static class AsyncToast extends AsyncTask<Context, Void, Void> {
-        private OceansDatabase db;
-        private String s;
-        private WeakReference<MainActivity> activityReference;
+    public static String getMacAddr() {
+        try {
+            List<NetworkInterface> all = Collections.list(NetworkInterface.getNetworkInterfaces());
+            for (NetworkInterface nif : all) {
+                if (!nif.getName().equalsIgnoreCase("wlan0")) continue;
 
-        public AsyncToast(OceansDatabase db, WeakReference<MainActivity> activityReference){
-            this.db = db;
-            this.activityReference = activityReference;
-        }
-        @Override
-        protected Void doInBackground(Context... contexts) {
-            List<Integer> ids = db.recordDao().getIds();
-            s = ids.toString();
-            return null;
-        }
+                byte[] macBytes = nif.getHardwareAddress();
+                if (macBytes == null) {
+                    return "";
+                }
 
+                StringBuilder res1 = new StringBuilder();
+                for (byte b : macBytes) {
+                    res1.append(Integer.toHexString(b & 0xFF) + ":");
+                }
 
-        @Override
-        protected void onPostExecute(Void aVoid) {
-            super.onPostExecute(aVoid);
-            MainActivity activity = activityReference.get();
-            if (activity == null || activity.isFinishing()) return;
-            activity.mainToast(s);
+                if (res1.length() > 0) {
+                    res1.deleteCharAt(res1.length() - 1);
+                }
+                return res1.toString();
+            }
+        } catch (Exception ex) {
+            //handle exception
         }
+        return "";
     }
+
+
+//    public static class AsyncToast extends AsyncTask<Context, Void, Void> {
+//        private OceansDatabase db;
+//        private String s;
+//        private WeakReference<MainActivity> activityReference;
+//
+//        public AsyncToast(OceansDatabase db, WeakReference<MainActivity> activityReference){
+//            this.db = db;
+//            this.activityReference = activityReference;
+//        }
+//        @Override
+//        protected Void doInBackground(Context... contexts) {
+//            List<Integer> ids = db.recordDao().getIds();
+//            s = ids.toString();
+//            return null;
+//        }
+//
+//
+//        @Override
+//        protected void onPostExecute(Void aVoid) {
+//            super.onPostExecute(aVoid);
+//            MainActivity activity = activityReference.get();
+//            if (activity == null || activity.isFinishing()) return;
+//            activity.mainToast(s);
+//        }
+//    }
 
 }

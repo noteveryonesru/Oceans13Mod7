@@ -6,14 +6,16 @@ import androidx.room.Query;
 
 import java.util.List;
 
+import ph.edu.up.ics.oceans13mod7.rest.request.RecordJson;
+
 @Dao
 public interface RecordDao {
 
     @Query("SELECT DISTINCT session_id FROM record")
     public List<Integer> getAllSessionIds();
 
-    @Query("SELECT * FROM record where session_id = :session_id")
-    public List<Record> getRecordsBySessionId(int session_id);
+    @Query("SELECT latitude, longitude, heading, speed, timestamp FROM record where session_id = :session_id")
+    public List<RecordJson> getRecordsBySessionId(int session_id);
 
     @Query("SELECT id FROM record")
     public List<Integer> getIds();

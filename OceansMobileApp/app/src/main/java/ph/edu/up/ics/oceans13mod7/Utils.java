@@ -5,10 +5,11 @@ import android.location.Location;
 import android.preference.PreferenceManager;
 
 import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Utils {
-
+    public static final SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
     static final String KEY_REQUESTING_LOCATION_UPDATES = "requesting_location_updates";
     static final String KEY_LAST_SESSION_ID = "last_session_id";
 

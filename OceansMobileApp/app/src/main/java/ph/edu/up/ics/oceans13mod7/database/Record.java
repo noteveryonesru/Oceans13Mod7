@@ -4,9 +4,12 @@ import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
+import java.util.Date;
+
+import ph.edu.up.ics.oceans13mod7.Utils;
+
 @Entity
 public class Record {
-
     @PrimaryKey(autoGenerate = true)
     public int id;
 
@@ -19,23 +22,24 @@ public class Record {
     @ColumnInfo(name = "longitude")
     public double longitude;
 
-    @ColumnInfo(name = "bearing")
-    public double bearing;
+    @ColumnInfo(name = "heading")
+    public double heading;
 
-    @ColumnInfo(name = "acceleration")
-    public double acceleration;
+    @ColumnInfo(name = "speed")
+    public double speed;
 
     @ColumnInfo(name = "timestamp")
-    public long timestamp;
+    public String timestamp;
 
 
-    public Record(int session_id, double latitude, double longitude, double bearing, double acceleration){
+    public Record(int session_id, double latitude, double longitude, double heading, double speed){
         this.session_id = session_id;
         this.latitude = latitude;
         this.longitude = longitude;
-        this.bearing = bearing;
-        this.acceleration = acceleration;
-        this.timestamp = System.currentTimeMillis();
+        this.heading = heading;
+        this.speed = speed;
+        Date date = new Date(System.currentTimeMillis());
+        this.timestamp = Utils.simpleDateFormat.format(date);
     }
 
 }

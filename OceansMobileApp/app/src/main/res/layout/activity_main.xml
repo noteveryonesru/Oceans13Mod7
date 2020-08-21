@@ -15,7 +15,7 @@
         android:text="Start Session"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/bearingTextView" />
+        app:layout_constraintTop_toBottomOf="@id/headingTextView" />
     <Button
         android:id="@+id/stopButton"
         android:layout_width="wrap_content"
@@ -26,6 +26,28 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/startButton" />
 
+    <EditText
+        android:id="@+id/urlBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:hint="Enter Url"
+        android:layout_marginTop="28dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintTop_toBottomOf="@id/stopButton"/>
+
+    <Button
+        android:id="@+id/uploadButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Upload"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/urlBox" />
+
     <TextView
         android:id="@+id/latitudeTextView"
         android:layout_width="wrap_content"
@@ -34,6 +56,7 @@
         android:layout_marginTop="36dp"
         android:layout_marginEnd="8dp"
         android:gravity="center_horizontal"
+        android:text="Latitude : "
         android:textSize="23sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,6 +70,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="8dp"
         android:gravity="center_horizontal"
+        android:text="Longitude : "
         android:textSize="23sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -60,19 +84,21 @@
         android:layout_marginTop="36dp"
         android:layout_marginEnd="8dp"
         android:gravity="center_horizontal"
+        android:text="Speed : "
         android:textSize="23sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/longitudeTextView" />
 
     <TextView
-        android:id="@+id/bearingTextView"
+        android:id="@+id/headingTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="8dp"
         android:gravity="center_horizontal"
+        android:text="Heading : "
         android:textSize="23sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
