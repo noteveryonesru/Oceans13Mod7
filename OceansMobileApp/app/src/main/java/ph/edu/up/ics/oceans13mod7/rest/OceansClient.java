@@ -11,6 +11,7 @@ import okhttp3.logging.HttpLoggingInterceptor;
 import ph.edu.up.ics.oceans13mod7.UploadLocker;
 import ph.edu.up.ics.oceans13mod7.database.OceansDatabase;
 import ph.edu.up.ics.oceans13mod7.rest.request.BodyJson;
+import ph.edu.up.ics.oceans13mod7.rest.request.CatchJson;
 import ph.edu.up.ics.oceans13mod7.rest.request.RecordJson;
 import ph.edu.up.ics.oceans13mod7.rest.request.SessionJson;
 import ph.edu.up.ics.oceans13mod7.rest.response.UploadResponseJson;
@@ -66,9 +67,10 @@ public class OceansClient {
             List<SessionJson> listOfSessions = new ArrayList<SessionJson>();
             for (int sessionId : sessionIds) {
                 List<RecordJson> tempRecords = db.recordDao().getRecordsBySessionId(sessionId);
+                List<CatchJson> tempCatches = new ArrayList<CatchJson>();
                 String startTime = tempRecords.get(0).timestamp;
                 String endTime = tempRecords.get(tempRecords.size() - 1).timestamp;
-                SessionJson session = new SessionJson(startTime, endTime, tempRecords, null);
+                SessionJson session = new SessionJson(startTime, endTime, tempRecords, tempCatches);
                 listOfSessions.add(session);
             }
             BodyJson toSend = new BodyJson(macAddress, listOfSessions);
@@ -78,23 +80,24 @@ public class OceansClient {
             return null;
         }
 
-        public Callback<UploadResponseJson> generateUploadResponseCallback(final OceansDatabase db, final UploadLocker uploadLocker){
+        public Callback<UploadResponseJson> generateUploadResponseCallback(final OceansDatabase db, final UploadLocker uploadLocker) {
             return new Callback<UploadResponseJson>() {
                 @Override
                 public void onResponse(Call<UploadResponseJson> call, Response<UploadResponseJson> response) {
-                    if (response.isSuccessful()){
+                    if (response.isSuccessful()) {
                         try {
                             UploadResponseJson uploadResponse = response.body();
-                            if (uploadResponse != null && uploadResponse.status == 1){
-                                //db.recordDao().nukeRecords();
+                            if (uploadResponse != null && uploadResponse.status == 1) {
+                                //OceansDatabase.AsyncNuke runner = new OceansDatabase.AsyncNuke(db);
+                                //runner.execute();
                             }
-                        } catch (Exception e){
-                            Log.i(TAG, e.getMessage());
+                        } catch (Exception e) {
+                            Log.i("OceansTag", e.getMessage());
                         }
-                    }else{
-                        uploadLocker.toastError("Something failed (on Response)");
+                    } else {
+                        Log.i("OceansTag", "Something Failed (onResponse)");
                     }
-                    if (uploadLocker != null){
+                    if (uploadLocker != null) {
                         uploadLocker.unlock();
                     }
                 }
@@ -108,8 +111,6 @@ public class OceansClient {
         }
 
     }
-
-
 
 
 }

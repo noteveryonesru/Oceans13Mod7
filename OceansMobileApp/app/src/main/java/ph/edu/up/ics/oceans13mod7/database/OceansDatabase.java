@@ -44,4 +44,20 @@ public abstract class OceansDatabase extends RoomDatabase {
         }
     }
 
+    public static class AsyncNuke extends AsyncTask<Void, Void, Void>{
+        private OceansDatabase db;
+
+        public AsyncNuke(OceansDatabase db){
+            this.db = db;
+        }
+
+        @Override
+        protected Void doInBackground(Void... voids) {
+            db.recordDao().nukeRecords();
+            return null;
+        }
+    }
+
+
+
 }
