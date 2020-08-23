@@ -86,7 +86,7 @@ public class OceansClient {
                         try {
                             UploadResponseJson uploadResponse = response.body();
                             if (uploadResponse != null && uploadResponse.status == 1){
-                                db.recordDao().nukeRecords();
+                                //db.recordDao().nukeRecords();
                             }
                         } catch (Exception e){
                             Log.i(TAG, e.getMessage());
