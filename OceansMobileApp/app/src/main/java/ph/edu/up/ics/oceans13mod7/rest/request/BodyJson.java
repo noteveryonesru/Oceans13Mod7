@@ -6,9 +6,9 @@ import java.util.List;
 
 public class BodyJson {
 
-    @SerializedName("macAddress")
+    @SerializedName("MacAddress")
     public String macAddress;
-    @SerializedName("arrayOfSessions")
+    @SerializedName("ArrayOfSessions")
     public List<SessionJson> arrayOfSessions;
 
     public BodyJson(String macAddress, List<SessionJson> arrayOfSessions){

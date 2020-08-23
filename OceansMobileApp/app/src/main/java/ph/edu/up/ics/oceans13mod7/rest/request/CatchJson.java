@@ -6,19 +6,19 @@ import com.google.gson.annotations.SerializedName;
 
 public class CatchJson {
 
-    @SerializedName("latitude")
+    @SerializedName("Latitude")
     @ColumnInfo(name = "latitude")
     public double latitude;
 
-    @SerializedName("longitude")
+    @SerializedName("Longitude")
     @ColumnInfo(name = "longitude")
     public double longitude;
 
-    @SerializedName("timestamp")
+    @SerializedName("TimeStamp")
     @ColumnInfo(name = "timestamp")
     public String timestamp;
 
-    @SerializedName("relatedphoto")
+    @SerializedName("RelatedPhoto")
     @ColumnInfo(name = "relatedphoto")
     public String relatedphoto;
 

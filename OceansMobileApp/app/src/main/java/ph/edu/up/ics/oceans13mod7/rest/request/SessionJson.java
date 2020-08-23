@@ -6,13 +6,13 @@ import java.util.List;
 
 public class SessionJson {
 
-    @SerializedName("startTime")
+    @SerializedName("StartTime")
     public String startTime;
-    @SerializedName("endTime")
+    @SerializedName("EndTime")
     public String endTime;
-    @SerializedName("arrayOfRecords")
+    @SerializedName("ArrayOfRecords")
     public List<RecordJson> arrayOfRecords;
-    @SerializedName("arrayOfCatches")
+    @SerializedName("ArrayOfCatches")
     public List<CatchJson> arrayOfCatches;
 
     public SessionJson(String startTime, String endTime, List<RecordJson>arrayOfRecords, List<CatchJson> arrayOfCatches){

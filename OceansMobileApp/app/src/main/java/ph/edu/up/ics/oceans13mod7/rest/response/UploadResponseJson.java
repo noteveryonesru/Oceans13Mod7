@@ -4,7 +4,7 @@ import com.google.gson.annotations.SerializedName;
 
 public class UploadResponseJson {
 
-    @SerializedName("status")
+    @SerializedName("Status")
     public int status;
 
 }

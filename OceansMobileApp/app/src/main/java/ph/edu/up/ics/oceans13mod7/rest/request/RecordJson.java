@@ -6,23 +6,23 @@ import com.google.gson.annotations.SerializedName;
 
 public class RecordJson {
 
-    @SerializedName("latitude")
+    @SerializedName("Latitude")
     @ColumnInfo(name = "latitude")
     public double latitude;
 
-    @SerializedName("longitude")
+    @SerializedName("Longitude")
     @ColumnInfo(name = "longitude")
     public double longitude;
 
-    @SerializedName("heading")
+    @SerializedName("Heading")
     @ColumnInfo(name = "heading")
     public double heading;
 
-    @SerializedName("speed")
+    @SerializedName("Speed")
     @ColumnInfo(name = "speed")
     public double speed;
 
-    @SerializedName("timestamp")
+    @SerializedName("TimeStamp")
     @ColumnInfo(name = "timestamp")
     public String timestamp;
 
