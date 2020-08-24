@@ -103,3 +103,16 @@ exports.findAll = (req,res) =>{
 		res.send({"boat":boat});
 	})
 }
+
+//geting the data of single boat
+exports.getCertainBoat = (req,res) => {
+	Boat.find({MacAddress:req.query.macaddress}, (err,boat)=>{
+		if(boat.length > 0){	// check if the array is empty
+			res.send({"boat":boat});
+		}
+		else{
+			res.send("No MAcAddress Found");
+		}
+	})
+
+}

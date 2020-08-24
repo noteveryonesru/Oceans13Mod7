@@ -18,6 +18,7 @@ class Home extends React.Component{
         this.updateDimensions = this.updateDimensions.bind(this);
         this.state = {
             boat: [],
+            singleboat: []
         }
     }
     updateDimensions(){
@@ -32,7 +33,10 @@ class Home extends React.Component{
     	//Fetching the MacAddresses
     	fetch('http://localhost:3001/findAll')
 			.then(response => response.json())
-			.then(data => this.setState({boat:data.boat}));
+			.then(data => this.setState({boat:data.boat}))
+            .catch(function(error) {
+                console.log(error);
+              }); 
 
         //Creating the Source Vector and Layer Vector for Plotting
         const features = [];
@@ -50,8 +54,8 @@ class Home extends React.Component{
           });
 
         //Get the center at the Philippines
-    	//const PhilippinesLonLat = fromLonLat([121.7740, 12.8797]);//Zoom:5
-        const LBLonLat = fromLonLat([121.238603, 14.164747]); // UP Los Banos
+    	const PhilippinesLonLat = fromLonLat([121.7740, 12.8797]);//Zoom:5
+        //const LBLonLat = fromLonLat([121.238603, 14.164747]); // UP Los Banos
         const map = new Map({
           layers: [
             new TileLayer({
@@ -61,15 +65,18 @@ class Home extends React.Component{
           ],
           target: 'map',
           view: new View({
-            center: LBLonLat,
-            zoom: 17
+            center: PhilippinesLonLat,
+            zoom: 5
           })
         });
+
+        var vectorLayers = [];
+        vectorLayers.push(vectorLayer);
 
         //Update the state variables
         this.setState({ 
             map: map,
-            vectorLayer: vectorLayer
+            vectorLayers: vectorLayers
         });
     	
     }
@@ -77,46 +84,63 @@ class Home extends React.Component{
         window.removeEventListener('resize', this.updateDimensions)
     }
 
-    plot(boat) {
+    plot(boats,macAddress) {
+        //removing the previous Layer inputted in the map
+        for(var b =0;b<this.state.vectorLayers.length;b++){
+            this.state.map.removeLayer(this.state.vectorLayers[b])
+        }
+         
+        var vectorLayers = []      //variable that will hold all the vector Layers
         //Getting all the location visited by the certain boat
-        const features = [];
-        for(var i =0 ; i<boat.ArrayOfSessions.length ; i++){
-            var Records = boat.ArrayOfSessions[i].ArrayOfRecords;
-            for(var j = 0; j < Records.length ; j++){
-                console.log(Records[j].Latitude)
-                console.log(Records[j].Longitude)
-                
-                //Putting the coordinates vidited by the boat in an array
-                features.push(new Feature({
-                  geometry: new Point(fromLonLat([
-                    Records[j].Longitude, Records[j].Latitude
-                  ]))
-                }));
+        for(var a =0; a< boats.length;a++){
+            if(boats[a].MacAddress == macAddress){
+
+                const features = [];
+                var boat=boats[a];
+
+                for(var i =0 ; i<boat.ArrayOfSessions.length ; i++){
+                    var Records = boat.ArrayOfSessions[i].ArrayOfRecords;
+                    for(var j = 0; j < Records.length ; j++){
+                       /* console.log(Records[j].Latitude)
+                        console.log(Records[j].Longitude)*/
+                        
+                        //Putting the coordinates vidited by the boat in an array
+                        features.push(new Feature({
+                          geometry: new Point(fromLonLat([
+                            Records[j].Longitude, Records[j].Latitude
+                          ]))
+                        }));
+                    }
+                }
+            
+            const vectorSource = new SourceVector({     //put all the coordinates
+                features
+             });
+
+            //create the vector Layer for the new points
+            const vectorLayer = new LayerVector({
+                source: vectorSource,
+                style: new Style({
+                  image: new Circle({
+                    radius: 7,
+                    fill: new Fill({color: '#'+(Math.random() * 0xFFFFFF << 0).toString(16).padStart(6, '0')})
+                  })
+                })
+              });
+          
+          //add the vector Layer to the map and put in array to remove later on.
+          this.state.map.addLayer(vectorLayer) 
+          vectorLayers.push(vectorLayer);
             }
         }
-
-        //removing the previous Layer inputted in the map
-        this.state.map.removeLayer(this.state.vectorLayer)
-          const vectorSource = new SourceVector({
-            features
-          });
-
-        //create the vector Layer for the new points
-        const vectorLayer = new LayerVector({
-            source: vectorSource,
-            style: new Style({
-              image: new Circle({
-                radius: 2,
-                fill: new Fill({color: 'red'})
-              })
-            })
-          });
-       
-        //put the vectorLayer in the map and update the value
-        this.state.map.addLayer(vectorLayer)
-        this.setState({ 
-              vectorLayer: vectorLayer
+            //update the vector layer to have reference in deleting later on.
+            this.setState({ 
+              vectorLayers: vectorLayers
             });
+    }
+
+    onlyUnique(value, index, self) { 
+        return self.indexOf(value) === index;
     }
 
      render(){
@@ -125,7 +149,16 @@ class Home extends React.Component{
             height:this.state.height,
             backgroundColor: '#cccccc',
         }
+        
         const { boat } = this.state;
+        
+        //get all the unique MacAddress before putting in the display
+        var mac = []
+        for(var i =0; i< boat.length;i++){
+          mac.push(boat[i].MacAddress)
+         }
+        var uniqueMacAddress = mac.filter(this.onlyUnique)
+     
         return (
         	//Rendering the Map and Boat
          		<div>
@@ -138,9 +171,9 @@ class Home extends React.Component{
                     <br/>
                     <h2 className = "header"> Boats</h2>
                     <ul>
-                      {boat.map(boat =>
-                          <li key={boat._id} onClick={() => this.plot(boat)}>
-                                {boat.MacAddress}
+                      {uniqueMacAddress.map(macAdd =>
+                          <li key ={macAdd} onClick={() => this.plot(boat,macAdd)}>
+                                {macAdd}
                           </li>
                         )}
                       </ul>
