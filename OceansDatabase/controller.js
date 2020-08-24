@@ -1,6 +1,6 @@
 const mongoose = require( 'mongoose' );
 mongoose.connect( 'mongodb://localhost:27017/Logs' , { useNewUrlParser :
-true , useUnifiedTopology : true });
+true , useUnifiedTopology : true , auto_reconnect : true, keepAlive : true});
 
 //Define the Schema of the Database
 var Catch = new mongoose.Schema({
