@@ -9,6 +9,4 @@ import retrofit2.http.POST;
 public interface OceansApi {
     @POST("save")
     Call<UploadResponseJson> uploadSessions(@Body BodyJson body);
-//    @POST("testing.php")
-//    Call<UploadResponseJson> uploadSessions(@Body BodyJson body);
 }

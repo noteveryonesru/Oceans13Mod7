@@ -251,7 +251,7 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
     private void updateTextViews(Location location){
         String latitudeString = "Latitude : " + location.getLatitude();
         String longitudeString = "Longitude : " + location.getLongitude();
-        String speedString = "Speed : " + location.getSpeed();
+        String speedString = "Speed : " + String.format("%.2f", location.getSpeed()*3.6) + "km/hr";
         String headingString = "Heading : " + location.getBearing();
         latitudeTextView.setText(latitudeString);
         longitudeTextView.setText(longitudeString);

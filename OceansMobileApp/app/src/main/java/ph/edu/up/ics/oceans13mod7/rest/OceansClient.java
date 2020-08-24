@@ -88,8 +88,8 @@ public class OceansClient {
                         try {
                             UploadResponseJson uploadResponse = response.body();
                             if (uploadResponse != null && uploadResponse.status == 1) {
-                                //OceansDatabase.AsyncNuke runner = new OceansDatabase.AsyncNuke(db);
-                                //runner.execute();
+                                OceansDatabase.AsyncNuke runner = new OceansDatabase.AsyncNuke(db);
+                                runner.execute();
                             }
                         } catch (Exception e) {
                             Log.i("OceansTag", e.getMessage());
