@@ -55,5 +55,9 @@ $theme-colors: (
     right: 8px;
 }
 .ol-popup-closer:after {
-    content: "✖";
+    /*content: "✖";*/
+    content:"X";
+}
+li{
+    list-style: none;   /*removes the dot in li*/
 }

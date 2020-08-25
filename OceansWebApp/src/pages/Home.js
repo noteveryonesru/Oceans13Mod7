@@ -13,6 +13,14 @@ import Circle from 'ol/style/Circle';
 import Fill from 'ol/style/Fill';
 import Stroke from 'ol/style/Stroke';
 import Overlay from 'ol/Overlay';
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import ListGroup from 'react-bootstrap/ListGroup'
+import Tooltip from 'react-bootstrap/Tooltip'
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
+import Popover from 'react-bootstrap/Popover'
+
 
 class Home extends React.Component{
     constructor(props) {
@@ -153,11 +161,11 @@ class Home extends React.Component{
                           ])),
                           properties:{
                             //put proprties for display
-                            longitude: 'Longitude: '+ Records[j].Longitude,
-                            latitude: 'Latitude: '+Records[j].Latitude,
-                            heading: 'Heading: '+Records[j].Heading,
-                            speed: 'Speed: '+Records[j].Speed,
-                            timestamp: 'Timestamp: '+Records[j].TimeStamp,
+                            longitude: '<strong>Longitude: </strong>'+ Records[j].Longitude,
+                            latitude: '<strong>Latitude: </strong>'+Records[j].Latitude,
+                            heading: '<strong>Heading: </strong>'+Records[j].Heading,
+                            speed: '<strong>Speed: </strong>'+Records[j].Speed,
+                            timestamp: '<strong>Timestamp: </strong>'+Records[j].TimeStamp,
                         }
                         }));
                     }
@@ -214,32 +222,71 @@ class Home extends React.Component{
           mac.push(boat[i].MacAddress)
          }
         var uniqueMacAddress = mac.filter(this.onlyUnique)
-     
+        
+
         return (
         	//Rendering the Map and Boat
-         		<div>
-                    
-                    <h2 className = "header"> Map</h2>
-                
-                    <div id='map' style={style}>
-                    </div>
+     		<Container fluid>          
+                <Row>
+                    <Col xs={12} md={8}>                             
+                        <div id='map' class="sticky-top" style={style}>
+                        </div>
 
-                     <div id="popup" className="ol-popup">
-                        <a id="popup-closer" className="ol-popup-closer"></a>
-                        <div id="popup-content"></div>
-                    </div>
-
-                    <br/>
-                    <h2 className = "header"> Boats</h2>
-                    <ul>
-                      {uniqueMacAddress.map(macAdd =>
-                          <li key ={macAdd} onClick={() => this.plot(boat,macAdd)}>
-                                {macAdd}
-                          </li>
-                        )}
-                      </ul>
-                
-                </div>
+                        <div id="popup" className="ol-popup">
+                            <a id="popup-closer" className="ol-popup-closer"></a>
+                            <div id="popup-content"></div>
+                        </div>
+                    </Col>
+                    <Col xs={6} md={4}>
+                        <h2 className = "header"> Boats</h2>
+                        <p>Select a boat to view its fishing location.</p>
+                        <ListGroup>
+                          <ListGroup.Item action variant="light">
+                                {uniqueMacAddress.map(macAdd =>
+                                  <li key ={macAdd} onClick={() => this.plot(boat,macAdd)}>
+                                        {macAdd}
+                                  </li>
+                                )}
+                          </ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
+                        </ListGroup>
+                    </Col>
+                </Row>
+                <Row>
+                    <br></br><br></br><br></br>
+                </Row>
+            </Container>
         )
     }
 }
