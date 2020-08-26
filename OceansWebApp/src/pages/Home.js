@@ -229,7 +229,7 @@ class Home extends React.Component{
      		<Container fluid>          
                 <Row>
                     <Col xs={12} md={8}>                             
-                        <div id='map' class="sticky-top" style={style}>
+                        <div id='map' className="sticky-top" style={style}>
                         </div>
 
                         <div id="popup" className="ol-popup">
@@ -241,45 +241,11 @@ class Home extends React.Component{
                         <h2 className = "header"> Boats</h2>
                         <p>Select a boat to view its fishing location.</p>
                         <ListGroup>
-                          <ListGroup.Item action variant="light">
                                 {uniqueMacAddress.map(macAdd =>
-                                  <li key ={macAdd} onClick={() => this.plot(boat,macAdd)}>
+                                  <ListGroup.Item action variant="light" key ={macAdd} onClick={() => this.plot(boat,macAdd)}>
                                         {macAdd}
-                                  </li>
+                                  </ListGroup.Item>
                                 )}
-                          </ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
-                          <ListGroup.Item action variant="light">mac-address</ListGroup.Item>
                         </ListGroup>
                     </Col>
                 </Row>
