@@ -67,7 +67,7 @@ public class OceansClient {
             List<SessionJson> listOfSessions = new ArrayList<SessionJson>();
             for (int sessionId : sessionIds) {
                 List<RecordJson> tempRecords = db.recordDao().getRecordsBySessionId(sessionId);
-                List<CatchJson> tempCatches = new ArrayList<CatchJson>();
+                List<CatchJson> tempCatches = db.catchDao().getCatchesBySessionId(sessionId);
                 String startTime = tempRecords.get(0).timestamp;
                 String endTime = tempRecords.get(tempRecords.size() - 1).timestamp;
                 SessionJson session = new SessionJson(startTime, endTime, tempRecords, tempCatches);

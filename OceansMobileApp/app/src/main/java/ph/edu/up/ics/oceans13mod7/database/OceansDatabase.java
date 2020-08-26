@@ -7,10 +7,11 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
-@Database(entities = {Record.class}, version = 5)
+@Database(entities = {Record.class, Catch.class}, version = 7)
 public abstract class OceansDatabase extends RoomDatabase {
     private static OceansDatabase oceansDatabaseInstance = null;
     public abstract RecordDao recordDao();
+    public abstract CatchDao catchDao();
     public static OceansDatabase getInstance(Context context){
         if (oceansDatabaseInstance == null){
             oceansDatabaseInstance = Room.databaseBuilder(context.getApplicationContext(), OceansDatabase.class, "oceans13mod7-database")
@@ -20,7 +21,7 @@ public abstract class OceansDatabase extends RoomDatabase {
         return oceansDatabaseInstance;
     }
 
-    public static class AsyncInsert extends AsyncTask<Void, Void, Void>{
+    public static class AsyncInsertRecord extends AsyncTask<Void, Void, Void>{
         private OceansDatabase db;
         private int sessionId;
         private double latitude;
@@ -28,7 +29,7 @@ public abstract class OceansDatabase extends RoomDatabase {
         private double heading;
         private double speed;
 
-        public AsyncInsert(OceansDatabase db, int sessionId, double latitude, double longitude, double heading, double speed){
+        public AsyncInsertRecord(OceansDatabase db, int sessionId, double latitude, double longitude, double heading, double speed){
             this.db = db;
             this.sessionId = sessionId;
             this.latitude = latitude;
@@ -44,6 +45,28 @@ public abstract class OceansDatabase extends RoomDatabase {
         }
     }
 
+    public static class AsyncInsertCatch extends AsyncTask<Void, Void, Void>{
+        private OceansDatabase db;
+        private int sessionId;
+        private double latitude;
+        private double longitude;
+        private String relatedPhoto;
+
+        public AsyncInsertCatch(OceansDatabase db, int sessionId, double latitude, double longitude, String relatedPhoto){
+            this.db = db;
+            this.sessionId = sessionId;
+            this.latitude = latitude;
+            this.longitude = longitude;
+            this.relatedPhoto = relatedPhoto;
+        }
+
+        @Override
+        protected Void doInBackground(Void... voids) {
+            db.catchDao().insertCatch(new Catch(sessionId, latitude, longitude, relatedPhoto));
+            return null;
+        }
+    }
+
     public static class AsyncNuke extends AsyncTask<Void, Void, Void>{
         private OceansDatabase db;
 
@@ -54,6 +77,7 @@ public abstract class OceansDatabase extends RoomDatabase {
         @Override
         protected Void doInBackground(Void... voids) {
             db.recordDao().nukeRecords();
+            db.catchDao().nukeRecords();
             return null;
         }
     }

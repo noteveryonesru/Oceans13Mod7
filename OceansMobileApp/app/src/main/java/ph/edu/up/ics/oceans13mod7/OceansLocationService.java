@@ -43,9 +43,8 @@ public class OceansLocationService extends Service {
     private static final String EXTRA_STARTED_FROM_NOTIFICATION = PACKAGE_NAME + ".started_from_notification";
     private final IBinder mBinder = new LocalBinder();
 
-    private static final long UPDATE_INTERVAL_IN_MILLISECONDS = 10000;
+    private static final long UPDATE_INTERVAL_IN_MILLISECONDS = 30000;
     private static final long FASTEST_UPDATE_INTERVAL_IN_MILLISECONDS = UPDATE_INTERVAL_IN_MILLISECONDS / 2;
-
     //Notification ID for the foreground service.
     private static final int NOTIFICATION_ID = 12345678;
 
@@ -55,7 +54,6 @@ public class OceansLocationService extends Service {
      * place.
      */
     private boolean mChangingConfiguration = false;
-
     private NotificationManager mNotificationManager;
 
     private LocationRequest mLocationRequest;
@@ -64,11 +62,11 @@ public class OceansLocationService extends Service {
     private LocationCallback mLocationCallback;
 
     private Handler mServiceHandler;
-
     //current Location
     private Location mLocation;
 
     private OceansDatabase oceansDatabaseInstance;
+
 
     public OceansLocationService() {
     }
@@ -225,7 +223,7 @@ public class OceansLocationService extends Service {
         mLocation = location;
         // Notify anyone listening for broadcasts about the new location.
         if (location != null) {
-            OceansDatabase.AsyncInsert runner = new OceansDatabase.AsyncInsert(OceansDatabase.getInstance(this), Utils.getLastSessionId(this), location.getLatitude(), location.getLongitude(), location.getBearing(), location.getSpeed());
+            OceansDatabase.AsyncInsertRecord runner = new OceansDatabase.AsyncInsertRecord(OceansDatabase.getInstance(this), Utils.getLastSessionId(this), location.getLatitude(), location.getLongitude(), location.getBearing(), location.getSpeed());
             runner.execute();
         }
 

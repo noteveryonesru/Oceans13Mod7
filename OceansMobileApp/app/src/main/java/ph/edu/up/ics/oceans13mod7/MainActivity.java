@@ -53,11 +53,13 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
     private Button startButton;
     private Button stopButton;
     private Button uploadButton;
+    private Button catchButton;
     private EditText urlBox;
     private TextView latitudeTextView;
     private TextView longitudeTextView;
     private TextView speedTextView;
     private TextView headingTextView;
+    private Location lastLocation;
 
     private final ServiceConnection mServiceConnection = new ServiceConnection() {
         @Override
@@ -99,6 +101,7 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
         startButton = findViewById(R.id.startButton);
         stopButton = findViewById(R.id.stopButton);
         uploadButton = findViewById(R.id.uploadButton);
+        catchButton = findViewById(R.id.catchButton);
         urlBox = findViewById(R.id.urlBox);
 
         startButton.setOnClickListener(new View.OnClickListener() {
@@ -131,6 +134,18 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
                     oceansClient.uploadRecords(MainActivity.this, OceansDatabase.getInstance(MainActivity.this), macAddress);
                 }else{
                     mainToast("Url cannot be empty");
+                }
+            }
+        });
+
+        catchButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(lastLocation!=null){
+                    OceansDatabase.AsyncInsertCatch runner = new OceansDatabase.AsyncInsertCatch(OceansDatabase.getInstance(MainActivity.this), Utils.getLastSessionId(MainActivity.this), lastLocation.getLatitude(), lastLocation.getLongitude(), "Tuna");
+                    runner.execute();
+                }else{
+                    mainToast("Latest location has not been processed yet.");
                 }
             }
         });
@@ -241,7 +256,9 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
             startButton.setEnabled(false);
             stopButton.setEnabled(true);
             uploadButton.setEnabled(false);
+            catchButton.setEnabled(true);
         } else {
+            catchButton.setEnabled(false);
             startButton.setEnabled(true);
             stopButton.setEnabled(false);
             uploadButton.setEnabled(true);
@@ -249,10 +266,10 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
     }
 
     private void updateTextViews(Location location){
-        String latitudeString = "Latitude : " + location.getLatitude();
-        String longitudeString = "Longitude : " + location.getLongitude();
-        String speedString = "Speed : " + String.format("%.2f", location.getSpeed()*3.6) + "km/hr";
-        String headingString = "Heading : " + location.getBearing();
+        String latitudeString = "" + location.getLatitude();
+        String longitudeString = "" + location.getLongitude();
+        String speedString = String.format("%.2f", location.getSpeed()*3.6) + "km/hr";
+        String headingString = "" + location.getBearing();
         latitudeTextView.setText(latitudeString);
         longitudeTextView.setText(longitudeString);
         speedTextView.setText(speedString);
@@ -268,6 +285,7 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
         startButton.setEnabled(false);
         stopButton.setEnabled(false);
         uploadButton.setEnabled(false);
+        catchButton.setEnabled(false);
     }
 
     @Override
@@ -275,6 +293,11 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
         startButton.setEnabled(true);
         stopButton.setEnabled(false);
         uploadButton.setEnabled(true);
+        catchButton.setEnabled(false);
+    }
+
+    public void storeLastLocation(Location lastLocation){
+        this.lastLocation = lastLocation;
     }
 
     @Override
@@ -292,6 +315,7 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
                 //runner.execute(MainActivity.this);
                 //List<Integer> ids = OceansDatabase.getInstance(context).recordDao().getIds();
                 //Toast.makeText(MainActivity.this, ids.toString(), Toast.LENGTH_LONG).show();
+                storeLastLocation(location);
                 updateTextViews(location);
             }
         }
