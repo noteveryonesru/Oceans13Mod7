@@ -104,6 +104,40 @@ exports.findAll = (req,res) =>{
 	})
 }
 
+exports.getAverageSpeed = (req,res) => {
+	Boat.find({MacAddress:req.query.macaddress}, (err,boat)=>{
+		console.log(boat.length)
+		if(boat.length > 0){	// check if the array is empty
+			var averageSpeed = [];
+
+			var aveSpeed = 0;
+			var totalTrip = 0;
+			var sessionSpeed = [];
+
+			var boatAddress = boat[0];
+			for(var j =0 ; j<boatAddress.ArrayOfSessions.length ; j++){
+					var Records = boatAddress.ArrayOfSessions[j].ArrayOfRecords;
+					var speed = 0;
+					var trips = 0;
+			    for(var k = 0; k < Records.length ; k++){
+						speed = speed + Records[k].Speed;
+						trips = trips + 1;
+					}
+					sessionSpeed.push(speed/trips);
+					aveSpeed = aveSpeed + speed;
+					totalTrip = totalTrip + trips;
+			}
+
+			aveSpeed = aveSpeed/totalTrip;
+			averageSpeed.push(aveSpeed);
+			averageSpeed.push(sessionSpeed);
+			res.send({"averageSpeed":averageSpeed});
+		}
+		else{
+			res.send("Boat NOT found");
+		}
+	})
+}
 //geting the data of single boat
 exports.getCertainBoat = (req,res) => {
 	Boat.find({MacAddress:req.query.macaddress}, (err,boat)=>{
