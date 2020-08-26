@@ -59,7 +59,9 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
     private TextView longitudeTextView;
     private TextView speedTextView;
     private TextView headingTextView;
-    private Location lastLocation;
+    private double lastLocationLatitude = 0;
+    private double lastLocationLongitude = 0 ;
+    private boolean hasRetrievedLastLocation = false;
 
     private final ServiceConnection mServiceConnection = new ServiceConnection() {
         @Override
@@ -141,9 +143,10 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
         catchButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(lastLocation!=null){
-                    OceansDatabase.AsyncInsertCatch runner = new OceansDatabase.AsyncInsertCatch(OceansDatabase.getInstance(MainActivity.this), Utils.getLastSessionId(MainActivity.this), lastLocation.getLatitude(), lastLocation.getLongitude(), "Tuna");
+                if(hasRetrievedLastLocation){
+                    OceansDatabase.AsyncInsertCatch runner = new OceansDatabase.AsyncInsertCatch(OceansDatabase.getInstance(MainActivity.this), Utils.getLastSessionId(MainActivity.this), lastLocationLatitude, lastLocationLongitude, "Tuna");
                     runner.execute();
+                    mainToast("Catch Recorded!");
                 }else{
                     mainToast("Latest location has not been processed yet.");
                 }
@@ -268,7 +271,8 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
     private void updateTextViews(Location location){
         String latitudeString = "" + location.getLatitude();
         String longitudeString = "" + location.getLongitude();
-        String speedString = String.format("%.2f", location.getSpeed()*3.6) + "km/hr";
+        String speedString = String.format("%.3f", location.getSpeed()*3.6) + "km/hr";
+        //String speedString = location.getSpeed() + "m/s";
         String headingString = "" + location.getBearing();
         latitudeTextView.setText(latitudeString);
         longitudeTextView.setText(longitudeString);
@@ -277,7 +281,7 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
     }
 
     public void mainToast(String s){
-        Toast.makeText(this, s, Toast.LENGTH_LONG).show();
+        Toast.makeText(this, s, Toast.LENGTH_SHORT).show();
     }
 
     @Override
@@ -297,7 +301,9 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
     }
 
     public void storeLastLocation(Location lastLocation){
-        this.lastLocation = lastLocation;
+        this.hasRetrievedLastLocation = true;
+        this.lastLocationLatitude = lastLocation.getLatitude();
+        this.lastLocationLongitude = lastLocation.getLongitude();
     }
 
     @Override
