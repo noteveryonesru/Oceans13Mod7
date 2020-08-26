@@ -10,16 +10,17 @@ import Feature from 'ol/Feature';
 import Point from 'ol/geom/Point';
 import Style from 'ol/style/Style';
 import Circle from 'ol/style/Circle';
+import RegularShape from 'ol/style/RegularShape';
 import Fill from 'ol/style/Fill';
 import Stroke from 'ol/style/Stroke';
 import Overlay from 'ol/Overlay';
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import ListGroup from 'react-bootstrap/ListGroup'
-import Tooltip from 'react-bootstrap/Tooltip'
-import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
-import Popover from 'react-bootstrap/Popover'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import ListGroup from 'react-bootstrap/ListGroup';
+//import Tooltip from 'react-bootstrap/Tooltip';
+//import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+//import Popover from 'react-bootstrap/Popover';
 
 
 class Home extends React.Component{
@@ -110,11 +111,18 @@ class Home extends React.Component{
                     var geometry = feature.getGeometry();
                     var coord = geometry.getCoordinates();
                     
-                    //define the content of the pop-up
+                    //define the content of the pop-up by extracting the information
                     var content = '<p>' + feature.getProperties().properties.latitude + '<br/>';
                     content += feature.getProperties().properties.longitude + '<br/>';
-                    content += feature.getProperties().properties.heading + '<br/>';
-                    content += feature.getProperties().properties.speed + '<br/>';
+                    if(feature.getProperties().properties.heading !== undefined){
+                        content += feature.getProperties().properties.heading + '<br/>';
+                    }
+                    if(feature.getProperties().properties.speed !== undefined){
+                        content += feature.getProperties().properties.speed + '<br/>';
+                    }
+                    if(feature.getProperties().properties.photo !== undefined){
+                        content += feature.getProperties().properties.photo + '<br/>';
+                    }
                     content += feature.getProperties().properties.timestamp + '</p>';
                     
                     content_element.innerHTML = content;
@@ -142,18 +150,19 @@ class Home extends React.Component{
         
         this.state.overlay.setPosition(undefined);//remove the overlay if it is displayed.
         var vectorLayers = []      //variable that will hold all the vector Layers
-        //Getting all the location visited by the certain boat
+
+    //Plotting all the location visited by the certain boat
         for(var a =0; a< boats.length;a++){
             if(boats[a].MacAddress === macAddress){
 
-                const features = [];
+                var features = [];
                 var boat=boats[a];
 
                 for(var i =0 ; i<boat.ArrayOfSessions.length ; i++){
+                    //For Ploting of Points
                     var Records = boat.ArrayOfSessions[i].ArrayOfRecords;
-                    console.log(Records)
+
                     for(var j = 0; j < Records.length ; j++){
-                        
                         //Putting the coordinates visited by the boat in an array
                         features.push(new Feature({
                           geometry: new Point(fromLonLat([
@@ -169,8 +178,9 @@ class Home extends React.Component{
                         }
                         }));
                     }
+
                 }
-            
+          
             const vectorSource = new SourceVector({     //put all the coordinates in array of features
                 features
              });
@@ -180,7 +190,7 @@ class Home extends React.Component{
                 source: vectorSource,
                 style: new Style({
                   image: new Circle({
-                    radius: 7,
+                    radius: 5,
                     fill: new Fill({color: '#'+(Math.random() * 0xFFFFFF << 0).toString(16).padStart(6, '0')}),
                     stroke: new Stroke({
                         color: 'black',
@@ -192,12 +202,69 @@ class Home extends React.Component{
               });
 
           //add the vector Layer to the map and put in array to remove later on.
-          this.state.map.addLayer(vectorLayer) 
+          this.state.map.addLayer(vectorLayer)
           vectorLayers.push(vectorLayer);
             }
         }
 
-            //update the vector layer to have reference in deleting later on.
+        //Plotting the Catch but extracting the values
+        for(a =0; a< boats.length;a++){
+            if(boats[a].MacAddress === macAddress){
+
+                 features = [];
+                 boat=boats[a];
+
+                for( i =0 ; i<boat.ArrayOfSessions.length ; i++){
+                    //For Ploting of Points
+                    var Catches = boat.ArrayOfSessions[i].ArrayOfCatches;
+
+                    for( j = 0; j < Catches.length ; j++){
+                        //Putting the coordinates visited by the boat in an array
+                        features.push(new Feature({
+                          geometry: new Point(fromLonLat([
+                            Catches[j].Longitude, Catches[j].Latitude
+                          ])),
+                          properties:{
+                            //put proprties for display
+                            longitude: '<strong>Longitude: </strong>'+ Catches[j].Longitude,
+                            latitude: '<strong>Latitude: </strong>'+Catches[j].Latitude,
+                            photo: '<strong>Related Photo: </strong>'+Catches[j].RelatedPhoto,
+                            timestamp: '<strong>Timestamp: </strong>'+Catches[j].TimeStamp,
+                        }
+                        }));
+                    }
+                   
+                }
+          
+            const vectorSource = new SourceVector({     //put all the coordinates in array of features
+                features
+             });
+
+            //create the vector Layer for the new points
+            const vectorLayer = new LayerVector({
+                source: vectorSource,
+                style: new Style({
+                    image: new RegularShape({   // shape star
+                        fill: new Fill({color: '#'+(Math.random() * 0xFFFFFF << 0).toString(16).padStart(6, '0')}),
+                        stroke: new Stroke({
+                            color: 'black',
+                            width: 0.5
+                        }),
+                        points: 5,
+                        radius: 10,
+                        radius2: 4,
+                        angle: 0,
+                      })
+                })
+              });
+
+          //add the vector Layer to the map and put in array to remove later on.
+          this.state.map.addLayer(vectorLayer)
+          vectorLayers.push(vectorLayer);
+            }
+        }
+
+    //update the vector layer to have reference in deleting later on.
         this.setState({ 
              vectorLayers: vectorLayers
         });
