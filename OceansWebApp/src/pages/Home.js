@@ -121,9 +121,13 @@ class Home extends React.Component{
                         content += feature.getProperties().properties.speed + '<br/>';
                     }
                     if(feature.getProperties().properties.photo !== undefined){
-                        content += feature.getProperties().properties.photo + '<br/>';
+                        content += '<strong>With Catch: </strong> Yes<br/>';
                     }
-                    content += feature.getProperties().properties.timestamp + '</p>';
+                    if(feature.getProperties().properties.photo === undefined){
+                        content += '<strong>With Catch: </strong> No<br/>';
+                    }
+                    content += feature.getProperties().properties.timestamp + '</br>';
+                    content += feature.getProperties().properties.aveSpeed + ' km/h</p>';
                     
                     content_element.innerHTML = content;
                     overlay.setPosition(coord);
@@ -136,6 +140,7 @@ class Home extends React.Component{
             vectorLayers: vectorLayers,
             overlay: overlay
         });
+
     	
     }
      componentWillUnmount(){
@@ -151,6 +156,8 @@ class Home extends React.Component{
         this.state.overlay.setPosition(undefined);//remove the overlay if it is displayed.
         var vectorLayers = []      //variable that will hold all the vector Layers
 
+
+
     //Plotting all the location visited by the certain boat
         for(var a =0; a< boats.length;a++){
             if(boats[a].MacAddress === macAddress){
@@ -158,11 +165,28 @@ class Home extends React.Component{
                 var features = [];
                 var boat=boats[a];
 
+            //Computing the Average Speed
+            var aveSpeed = 0;
+            var totalTrip = 0;
+            for(var j =0 ; j<boat.ArrayOfSessions.length ; j++){
+                    var Records = boat.ArrayOfSessions[j].ArrayOfRecords;
+                    var speed = 0;
+                    var trips = 0;
+                for(var k = 0; k < Records.length ; k++){
+                        speed = speed + Records[k].Speed;
+                        trips = trips + 1;
+                    }
+                    aveSpeed = aveSpeed + speed;
+                    totalTrip = totalTrip + trips;
+            }
+
+            aveSpeed = aveSpeed/totalTrip;
+
                 for(var i =0 ; i<boat.ArrayOfSessions.length ; i++){
                     //For Ploting of Points
-                    var Records = boat.ArrayOfSessions[i].ArrayOfRecords;
+                    Records = boat.ArrayOfSessions[i].ArrayOfRecords;
 
-                    for(var j = 0; j < Records.length ; j++){
+                    for(j = 0; j < Records.length ; j++){
                         //Putting the coordinates visited by the boat in an array
                         features.push(new Feature({
                           geometry: new Point(fromLonLat([
@@ -175,13 +199,14 @@ class Home extends React.Component{
                             heading: '<strong>Heading: </strong>'+Records[j].Heading,
                             speed: '<strong>Speed: </strong>'+Records[j].Speed,
                             timestamp: '<strong>Timestamp: </strong>'+Records[j].TimeStamp,
+                            aveSpeed: '<strong>Average Speed: </strong>'+aveSpeed,
                         }
                         }));
                     }
 
                 }
           
-            const vectorSource = new SourceVector({     //put all the coordinates in array of features
+            const vectorSource = new SourceVector({    //put all the coordinates in array of features
                 features
              });
 
@@ -214,6 +239,24 @@ class Home extends React.Component{
                  features = [];
                  boat=boats[a];
 
+        //Computing the Average Speed
+            aveSpeed = 0;
+            totalTrip = 0;
+            for(j =0 ; j<boat.ArrayOfSessions.length ; j++){
+                    Records = boat.ArrayOfSessions[j].ArrayOfRecords;
+                    speed = 0;
+                    trips = 0;
+                for(k = 0; k < Records.length ; k++){
+                        speed = speed + Records[k].Speed;
+                        trips = trips + 1;
+                    }
+                    aveSpeed = aveSpeed + speed;
+                    totalTrip = totalTrip + trips;
+            }
+
+            aveSpeed = aveSpeed/totalTrip;
+         
+
                 for( i =0 ; i<boat.ArrayOfSessions.length ; i++){
                     //For Ploting of Points
                     var Catches = boat.ArrayOfSessions[i].ArrayOfCatches;
@@ -230,6 +273,7 @@ class Home extends React.Component{
                             latitude: '<strong>Latitude: </strong>'+Catches[j].Latitude,
                             photo: '<strong>Related Photo: </strong>'+Catches[j].RelatedPhoto,
                             timestamp: '<strong>Timestamp: </strong>'+Catches[j].TimeStamp,
+                            aveSpeed: '<strong>Average Speed: </strong>'+aveSpeed,
                         }
                         }));
                     }
@@ -280,7 +324,6 @@ class Home extends React.Component{
             height:this.state.height,
             backgroundColor: '#cccccc',
         }
-        
         const { boat } = this.state;
         
         //get all the unique MacAddress before putting in the display
@@ -300,7 +343,7 @@ class Home extends React.Component{
                         </div>
 
                         <div id="popup" className="ol-popup">
-                            <a id="popup-closer" className="ol-popup-closer"></a>
+                            <a id="popup-closer" className="ol-popup-closer"></a>   //with warning
                             <div id="popup-content"></div>
                         </div>
                     </Col>
