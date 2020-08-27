@@ -118,7 +118,7 @@ class Home extends React.Component{
                         content += feature.getProperties().properties.heading + '<br/>';
                     }
                     if(feature.getProperties().properties.speed !== undefined){
-                        content += feature.getProperties().properties.speed + '<br/>';
+                        content += feature.getProperties().properties.speed + ' km/hr<br/>';
                     }
                     content += feature.getProperties().properties.timestamp + '</br>';
                     content += feature.getProperties().properties.aveSpeed + ' km/h</p>';
@@ -192,7 +192,7 @@ class Home extends React.Component{
                             longitude: '<strong>Longitude: </strong>'+ Records[j].Longitude,
                             latitude: '<strong>Latitude: </strong>'+Records[j].Latitude,
                             heading: '<strong>Heading: </strong>'+Records[j].Heading,
-                            speed: '<strong>Speed: </strong>'+Records[j].Speed,
+                            speed: '<strong>Speed: </strong>'+((Records[j].Speed*8)/5).toFixed(2),
                             timestamp: '<strong>Timestamp: </strong>'+Records[j].TimeStamp,
                             aveSpeed: '<strong>Average Speed: </strong>'+aveSpeed,
                         }
