@@ -120,12 +120,6 @@ class Home extends React.Component{
                     if(feature.getProperties().properties.speed !== undefined){
                         content += feature.getProperties().properties.speed + '<br/>';
                     }
-                    if(feature.getProperties().properties.photo !== undefined){
-                        content += '<strong>With Catch: </strong> Yes<br/>';
-                    }
-                    if(feature.getProperties().properties.photo === undefined){
-                        content += '<strong>With Catch: </strong> No<br/>';
-                    }
                     content += feature.getProperties().properties.timestamp + '</br>';
                     content += feature.getProperties().properties.aveSpeed + ' km/h</p>';
                     
