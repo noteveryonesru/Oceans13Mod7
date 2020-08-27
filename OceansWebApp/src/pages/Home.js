@@ -180,7 +180,8 @@ class Home extends React.Component{
                     totalTrip = totalTrip + trips;
             }
 
-            aveSpeed = aveSpeed/totalTrip;
+            aveSpeed = ((aveSpeed/totalTrip)*18)/5;     //Convert from m/s to km/hr
+            aveSpeed = aveSpeed.toFixed(2);
 
                 for(var i =0 ; i<boat.ArrayOfSessions.length ; i++){
                     //For Ploting of Points
@@ -254,8 +255,8 @@ class Home extends React.Component{
                     totalTrip = totalTrip + trips;
             }
 
-            aveSpeed = aveSpeed/totalTrip;
-         
+            aveSpeed = ((aveSpeed/totalTrip)*18)/5;     //Convert from m/s to km/hr
+            aveSpeed = aveSpeed.toFixed(2);
 
                 for( i =0 ; i<boat.ArrayOfSessions.length ; i++){
                     //For Ploting of Points
@@ -343,7 +344,7 @@ class Home extends React.Component{
                         </div>
 
                         <div id="popup" className="ol-popup">
-                            <a id="popup-closer" className="ol-popup-closer"></a>   //with warning
+                            <a id="popup-closer" className="ol-popup-closer"></a> 
                             <div id="popup-content"></div>
                         </div>
                     </Col>
