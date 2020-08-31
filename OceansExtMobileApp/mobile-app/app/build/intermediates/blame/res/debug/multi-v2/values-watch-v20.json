@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/home/msunfstdi/.gradle/caches/transforms-2/files-2.1/1a14b7b509727a9a859f0e973617a294/appcompat-1.0.2/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

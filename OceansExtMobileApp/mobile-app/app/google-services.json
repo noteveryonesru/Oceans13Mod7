@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "881539775217",
+    "firebase_url": "https://usaid-app.firebaseio.com",
+    "project_id": "usaid-app",
+    "storage_bucket": "usaid-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881539775217:android:2bd69c00e7613273",
+        "android_client_info": {
+          "package_name": "com.example.usaid_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "881539775217-tmphlg0ofsrup1ae378ih73h5tda03d3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.usaid_app",
+            "certificate_hash": "dc16987fc8a07c87799badbed6a268fa11f74036"
+          }
+        },
+        {
+          "client_id": "881539775217-u5vduk4p6akvov4p8se9voos9io9j2d9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdxrzWwUOJk-eZkjH0igDZrl9n9oYH9rQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "881539775217-u5vduk4p6akvov4p8se9voos9io9j2d9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

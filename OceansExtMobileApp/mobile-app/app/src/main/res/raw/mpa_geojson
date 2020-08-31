@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"name": "MPA",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Pananggalon MPA", "description": null }, "geometry": { "type": "Point", "coordinates": [ 125.280753112162103, 5.962281643293438 ] } },
+{ "type": "Feature", "properties": { "Name": "Isla Jardin Del Mar MPA", "description": null }, "geometry": { "type": "Point", "coordinates": [ 125.199081690347498, 5.769698543431081 ] } },
+{ "type": "Feature", "properties": { "Name": "Batulaki MPA", "description": null }, "geometry": { "type": "Point", "coordinates": [ 125.312819187685093, 5.568600940797647 ] } },
+{ "type": "Feature", "properties": { "Name": "Pangyan MPA", "description": null }, "geometry": { "type": "Point", "coordinates": [ 125.280167987653101, 5.6919341132749 ] } },
+{ "type": "Feature", "properties": { "Name": "Kawas MPA", "description": null }, "geometry": { "type": "Point", "coordinates": [ 125.267447718901494, 6.056221101429099 ] } },
+{ "type": "Feature", "properties": { "Name": "Bula MPA", "description": null }, "geometry": { "type": "Point", "coordinates": [ 125.191980105472993, 6.093941102108277 ] } },
+{ "type": "Feature", "properties": { "Name": "Kamanga MPA", "description": null }, "geometry": { "type": "Point", "coordinates": [ 125.043416401458401, 5.848880670882577 ] } },
+{ "type": "Feature", "properties": { "Name": "Tuka MPA", "description": null }, "geometry": { "type": "Point", "coordinates": [ 124.601715125235998, 5.984608222809739 ] } },
+{ "type": "Feature", "properties": { "Name": "Mabay MPA", "description": null }, "geometry": { "type": "Point", "coordinates": [ 124.469298962301494, 6.048443728517257 ] } }
+]
+}

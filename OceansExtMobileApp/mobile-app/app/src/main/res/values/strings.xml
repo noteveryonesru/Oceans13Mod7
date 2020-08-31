@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Karagathon</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="textview">TextView</string>
+    <string name="prev_arrow_text">&lt;</string>
+    <string name="next_arrow_text">&gt;</string>
+    <string name="month_map">February 2016</string>
+    <string name="fish_effort">Fishing Effort</string>
+    <string name="fish_concentration">Fishing Concentration</string>
+
+</resources>

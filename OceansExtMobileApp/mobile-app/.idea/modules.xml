@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidStudioProjects-mobile-ids.iml" filepath="$PROJECT_DIR$/AndroidStudioProjects-mobile-ids.iml" group="mobile-ids" />
+      <module fileurl="file://$PROJECT_DIR$/app/AndroidStudioProjects-mobile-ids-app.iml" filepath="$PROJECT_DIR$/app/AndroidStudioProjects-mobile-ids-app.iml" group="mobile-ids/app" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="mobile-ids/app" />
+      <module fileurl="file://$PROJECT_DIR$/mobile-app.iml" filepath="$PROJECT_DIR$/mobile-app.iml" group="mobile-app" />
+      <module fileurl="file://$PROJECT_DIR$/app/mobile-app-app.iml" filepath="$PROJECT_DIR$/app/mobile-app-app.iml" group="mobile-app/app" />
+      <module fileurl="file://$PROJECT_DIR$/mobile-ids.iml" filepath="$PROJECT_DIR$/mobile-ids.iml" group="mobile-ids" />
+      <module fileurl="file://$PROJECT_DIR$/app/mobile-ids-app.iml" filepath="$PROJECT_DIR$/app/mobile-ids-app.iml" group="mobile-ids/app" />
+    </modules>
+  </component>
+</project>

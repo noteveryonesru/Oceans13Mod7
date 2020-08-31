@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="TerminalProjectOptionsProvider">
+    <envs>
+      <env key="ANDROID_HOME" value="$USER_HOME$/Android/Sdk" />
+      <env key="ANDROID_SDK_ROOT" value="$USER_HOME$/Android/Sdk" />
+    </envs>
+  </component>
+</project>

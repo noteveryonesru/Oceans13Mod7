@@ -1,0 +1,175 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.usaid_app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+11-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:5:5-76
+11-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:5:22-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:6:5-67
+12-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:7:5-78
+13-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:8:5-79
+14-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:9:5-80
+15-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:10:5-79
+16-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:10:22-77
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:17.0.0] /home/msunfstdi/.gradle/caches/transforms-2/files-2.1/07c9202b72ae4c42e1f00ab7838d1606/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:17.0.0] /home/msunfstdi/.gradle/caches/transforms-2/files-2.1/07c9202b72ae4c42e1f00ab7838d1606/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+20        android:required="true" />
+20-->[com.google.android.gms:play-services-maps:17.0.0] /home/msunfstdi/.gradle/caches/transforms-2/files-2.1/07c9202b72ae4c42e1f00ab7838d1606/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+21
+22    <application
+22-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:13:5-64:19
+23        android:allowBackup="true"
+23-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:14:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.0.1] /home/msunfstdi/.gradle/caches/transforms-2/files-2.1/d90068a56f85934aeba9906409385cae/core-1.0.1/AndroidManifest.xml:22:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:icon="@mipmap/ic_launcher"
+27-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:15:9-43
+28        android:label="@string/app_name"
+28-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:16:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:17:9-54
+30        android:screenOrientation="portrait"
+30-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:21:9-45
+31        android:supportsRtl="true"
+31-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:18:9-35
+32        android:testOnly="true"
+33        android:theme="@style/AppTheme"
+33-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:19:9-40
+34        android:usesCleartextTraffic="true" >
+34-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:20:9-44
+35        <activity android:name="com.example.usaid_app.CalendarActivity" />
+35-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:22:9-54
+35-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:22:19-51
+36        <activity android:name="com.example.usaid_app.CPUEMenuActivity" />
+36-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:23:9-54
+36-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:23:19-51
+37        <activity android:name="com.example.usaid_app.CalendarMapsSDActivity" />
+37-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:24:9-60
+37-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:24:19-57
+38        <activity android:name="com.example.usaid_app.DataFormActivity" />
+38-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:25:9-54
+38-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:25:19-51
+39        <activity android:name="com.example.usaid_app.UserVerificationActivity" />
+39-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:26:9-62
+39-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:26:19-59
+40        <activity android:name="com.example.usaid_app.HomeNonBfarActivity" />
+40-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:27:9-57
+40-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:27:19-54
+41        <activity android:name="com.example.usaid_app.UserVerifyConfirmationActivity" />
+41-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:28:9-77
+41-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:28:19-65
+42        <!--
+43             The API key for Google Maps-based APIs is defined as a string resource.
+44             (See the file "res/values/google_maps_api.xml").
+45             Note that the API key is linked to the encryption key used to sign the APK.
+46             You need a different API key for each encryption key, including the release key that is used to
+47             sign the APK for publishing.
+48             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+49        -->
+50        <activity
+50-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:37:9-40:40
+51            android:name="com.example.usaid_app.MapsActivity"
+51-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:38:13-41
+52            android:label="@string/title_activity_maps"
+52-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:39:13-56
+53            android:noHistory="true" />
+53-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:40:13-37
+54        <activity android:name="com.example.usaid_app.CPUEActivity" />
+54-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:41:9-50
+54-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:41:19-47
+55        <activity android:name="com.example.usaid_app.SPCActivity" />
+55-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:42:9-49
+55-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:42:19-46
+56        <activity android:name="com.example.usaid_app.AnalyticsActivity" />
+56-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:43:9-55
+56-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:43:19-52
+57        <activity android:name="com.example.usaid_app.HomeActivity" />
+57-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:44:9-50
+57-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:44:19-47
+58        <activity android:name="com.example.usaid_app.ConfirmationActivity" />
+58-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:45:9-58
+58-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:45:19-55
+59        <activity
+59-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:46:9-48:40
+60            android:name="com.example.usaid_app.SignUpActivity"
+60-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:47:13-43
+61            android:noHistory="true" />
+61-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:48:13-37
+62        <activity android:name="com.example.usaid_app.MainActivity" >
+62-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:49:9-56:20
+62-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:49:19-47
+63            <intent-filter>
+63-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:50:13-55:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:51:17-69
+64-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:51:25-66
+65                <action android:name="android.intent.action.VIEW" />
+65-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:52:17-69
+65-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:52:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:54:17-77
+67-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:54:27-74
+68            </intent-filter>
+69        </activity>
+70
+71        <meta-data
+71-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:58:9-60:55
+72            android:name="com.google.android.geo.API_KEY"
+72-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:59:13-58
+73            android:value="@string/google_maps_key" />
+73-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:60:13-52
+74        <meta-data
+74-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:61:9-63:57
+75            android:name="preloaded_fonts"
+75-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:62:13-43
+76            android:resource="@array/preloaded_fonts" />
+76-->/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/AndroidManifest.xml:63:13-54
+77        <!-- Needs to be explicitly declared on P+ -->
+78        <uses-library
+78-->[com.google.android.gms:play-services-maps:17.0.0] /home/msunfstdi/.gradle/caches/transforms-2/files-2.1/07c9202b72ae4c42e1f00ab7838d1606/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+79            android:name="org.apache.http.legacy"
+79-->[com.google.android.gms:play-services-maps:17.0.0] /home/msunfstdi/.gradle/caches/transforms-2/files-2.1/07c9202b72ae4c42e1f00ab7838d1606/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+80            android:required="false" />
+80-->[com.google.android.gms:play-services-maps:17.0.0] /home/msunfstdi/.gradle/caches/transforms-2/files-2.1/07c9202b72ae4c42e1f00ab7838d1606/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+81
+82        <meta-data
+82-->[com.google.maps.android:android-maps-utils:0.5] /home/msunfstdi/.gradle/caches/transforms-2/files-2.1/4ed9b03a818386e77849de4c59856581/jetified-android-maps-utils-0.5/AndroidManifest.xml:8:9-10:69
+83            android:name="com.google.android.gms.version"
+83-->[com.google.maps.android:android-maps-utils:0.5] /home/msunfstdi/.gradle/caches/transforms-2/files-2.1/4ed9b03a818386e77849de4c59856581/jetified-android-maps-utils-0.5/AndroidManifest.xml:9:13-58
+84            android:value="@integer/google_play_services_version" />
+84-->[com.google.maps.android:android-maps-utils:0.5] /home/msunfstdi/.gradle/caches/transforms-2/files-2.1/4ed9b03a818386e77849de4c59856581/jetified-android-maps-utils-0.5/AndroidManifest.xml:10:13-66
+85
+86        <activity
+86-->[com.google.android.gms:play-services-base:17.0.0] /home/msunfstdi/.gradle/caches/transforms-2/files-2.1/6552b172201d212ca345c9bcba426e69/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+87            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+87-->[com.google.android.gms:play-services-base:17.0.0] /home/msunfstdi/.gradle/caches/transforms-2/files-2.1/6552b172201d212ca345c9bcba426e69/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+88            android:exported="false"
+88-->[com.google.android.gms:play-services-base:17.0.0] /home/msunfstdi/.gradle/caches/transforms-2/files-2.1/6552b172201d212ca345c9bcba426e69/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+89            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+89-->[com.google.android.gms:play-services-base:17.0.0] /home/msunfstdi/.gradle/caches/transforms-2/files-2.1/6552b172201d212ca345c9bcba426e69/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+90    </application>
+91
+92</manifest>

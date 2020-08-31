@@ -1,0 +1,7 @@
+#Fri Aug 28 18:58:26 PST 2020
+base.0=/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex

@@ -1,0 +1,2326 @@
+[
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_new_maps_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/new_maps_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_analytics_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/analytics_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_kaw_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/kaw_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable-hdpi_icon_analytics_chart.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable-hdpi/icon_analytics_chart.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_bet.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/bet.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable-hdpi_icon_msy_analytics.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable-hdpi/icon_msy_analytics.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_graph_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/graph_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_new_maps_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/new_maps_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_mix_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/mix_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_skj_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/skj_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_refresh_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/refresh_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_new_cpue_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/new_cpue_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_bet_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/bet_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_new_species_icon.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/new_species_icon.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_new_species_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/new_species_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_appicon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/appicon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_icon_download.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/icon_download.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_mix_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/mix_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_download_icon.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/download_icon.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_new_cpue_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/new_cpue_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_refresh_icon_background.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/refresh_icon_background.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_ic_fma_logo_background.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/ic_fma_logo_background.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_sample_legend_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/sample_legend_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_maps_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/maps_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_fma_logo_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/ic_fma_logo_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_sample_legend.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/sample_legend.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_yft_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/yft_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_distribution_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/distribution_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_green_mapmarker_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/green_mapmarker_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_search.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/search.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_sample_legend_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/sample_legend_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_graph_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/graph_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_sample_legend.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/sample_legend.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_gear_icon.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/gear_icon.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_new_analytics_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/new_analytics_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_graph_icon_background.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/graph_icon_background.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_skj_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/skj_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_new_species_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/new_species_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_new_maps_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/new_maps_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_new_company_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/new_company_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_graph_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/graph_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_yft.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/yft.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_download_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/download_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_new_maps_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/new_maps_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_new_gear_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/new_gear_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_appicon_round.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/appicon_round.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_sample_legend_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/sample_legend_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_appicon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/appicon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_maps_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/maps_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_new_company_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/new_company_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_green_mapmarker_round.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/green_mapmarker_round.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_maps_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/maps_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_new_species_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/new_species_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_maps_icon_background.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/maps_icon_background.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_new_maps_icon.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/new_maps_icon.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_gear_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/gear_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_graph_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/graph_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_yellow_mapmarker_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/yellow_mapmarker_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_icon_download.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/icon_download.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_distribution_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/distribution_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_icon_download.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/icon_download.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_company_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/company_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_sample_legend_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/sample_legend_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_bet_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/bet_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_kaw.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/kaw.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_yft_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/yft_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_company_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/company_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_company_icon.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/company_icon.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_yellow_mapmarker_background.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/yellow_mapmarker_background.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_green_mapmarker_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/green_mapmarker_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_blue_mapmarker.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/blue_mapmarker.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_bet_background.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/bet_background.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_appicon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/appicon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/layout_activity_ipaddress.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/layout/activity_ipaddress.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_new_gear_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/new_gear_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/layout_activity_calmapssd.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/layout/activity_calmapssd.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_yellow_mapmarker.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/yellow_mapmarker.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_new_cpue_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/new_cpue_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_mix.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/mix.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_new_gear_icon_background.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/new_gear_icon_background.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_new_maps_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/new_maps_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_new_maps_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/new_maps_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_refresh_icon_round.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/refresh_icon_round.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_yellow_mapmarker.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/yellow_mapmarker.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_refresh_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/refresh_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_appicon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/appicon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_yellow_mapmarker_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/yellow_mapmarker_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_download_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/download_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_refresh_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/refresh_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_download_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/download_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_new_analytics_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/new_analytics_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_appicon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/appicon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_new_company_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/new_company_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_new_species_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/new_species_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_blt_frt.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/blt_frt.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_analytics_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/analytics_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_new_species_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/new_species_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_graph_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/graph_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_distribution_icon.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/distribution_icon.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_mix_background.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/mix_background.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_yellow_mapmarker_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/yellow_mapmarker_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable-xxhdpi_icon_analytics_chart.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable-xxhdpi/icon_analytics_chart.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_skj_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/skj_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_kaw_round.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/kaw_round.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_new_gear_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/new_gear_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_blue_mapmarker_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/blue_mapmarker_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_kaw_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/kaw_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_msd_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/msd_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_mix_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/mix_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_btn_rounded_outline.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/btn_rounded_outline.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_fma_logo_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/ic_fma_logo_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_distribution_icon_round.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/distribution_icon_round.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_gear_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/gear_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_gear_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/gear_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_kaw_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/kaw_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_blue_mapmarker.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/blue_mapmarker.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_company_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/company_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_new_company_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/new_company_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_fma_logo_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/ic_fma_logo_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_new_cpue_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/new_cpue_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_blue_mapmarker_background.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/blue_mapmarker_background.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_machine_learning.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/machine_learning.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_green_mapmarker_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/green_mapmarker_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_new_company_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/new_company_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_sample_legend_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/sample_legend_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable-xhdpi_icon_analytics_chart.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable-xhdpi/icon_analytics_chart.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_strategy.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/strategy.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_bet.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/bet.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_blt_frt_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/blt_frt_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/font_nunito_light.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/font/nunito_light.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_yft_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/yft_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_distribution_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/distribution_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_new_analytics_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/new_analytics_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable-xhdpi_icon_map_location.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable-xhdpi/icon_map_location.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_msd_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/msd_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_graph_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/graph_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_bet.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/bet.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_green_mapmarker_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/green_mapmarker_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_new_maps_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/new_maps_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_blt_frt.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/blt_frt.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_kaw.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/kaw.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_new_maps_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/new_maps_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_new_company_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/new_company_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_btn_rounded.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/btn_rounded.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_skj.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/skj.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_distribution_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/distribution_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_company_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/company_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_new_maps_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/new_maps_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_refresh_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/refresh_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_blue_mapmarker_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/blue_mapmarker_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_bet_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/bet_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_msd_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/msd_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/layout_activity_sign_up.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_gear_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/gear_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_kaw.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/kaw.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_graph_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/graph_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_new_species_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/new_species_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable-anydpi_icon_msy_analytics.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable-anydpi/icon_msy_analytics.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/layout_activity_conf_userverify.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/layout/activity_conf_userverify.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_new_company_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/new_company_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_new_species_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/new_species_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_yft_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/yft_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_kaw_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/kaw_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_distribution_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/distribution_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_graph_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/graph_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_analytics_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/analytics_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_download_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/download_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_download_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/download_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_new_gear_icon.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/new_gear_icon.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_graph_icon.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/graph_icon.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_download_icon_background.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/download_icon_background.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_cpue_company.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/cpue_company.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable-hdpi_icon_map_location.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable-hdpi/icon_map_location.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_msd_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/msd_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_mix_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/mix_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_blt_frt_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/blt_frt_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_cpue_gear.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/cpue_gear.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_yft_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/yft_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_appicon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/appicon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_new_gear_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/new_gear_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_new_species_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/new_species_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_appicon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/appicon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_new_gear_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/new_gear_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_blt_frt_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/blt_frt_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_cpue_company.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/cpue_company.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_new_gear_icon_round.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/new_gear_icon_round.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_download_icon_round.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/download_icon_round.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_ringnet_gradient.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/ringnet_gradient.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_company_icon_round.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/company_icon_round.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/raw_fma3_geojson.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/raw/fma3_geojson"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_msd.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/msd.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable-mdpi_icon_map_location.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable-mdpi/icon_map_location.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_analytics_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/analytics_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_green_mapmarker_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/green_mapmarker_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_company_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/company_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_green_mapmarker.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/green_mapmarker.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_bet.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/bet.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_yft.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/yft.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_cpue_gear.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/cpue_gear.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_msd_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/msd_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_skj_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/skj_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_new_cpue_icon_round.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/new_cpue_icon_round.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_appicon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/appicon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_analytics_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/analytics_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_new_company_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/new_company_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_new_gear_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/new_gear_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_new_species_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/new_species_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable-xxhdpi_icon_cpue_analytics.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable-xxhdpi/icon_cpue_analytics.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_new_maps_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/new_maps_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_new_maps_icon_background.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/new_maps_icon_background.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_skj.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/skj.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_company_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/company_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_blt_frt_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/blt_frt_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_new_company_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/new_company_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_new_cpue_icon.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/new_cpue_icon.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable-mdpi_icon_analytics_chart.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable-mdpi/icon_analytics_chart.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_new_gear_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/new_gear_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_skj.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/skj.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_distribution_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/distribution_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_fma_logo_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/ic_fma_logo_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_distribution_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/distribution_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_download_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/download_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_blue_mapmarker_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/blue_mapmarker_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_yellow_mapmarker_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/yellow_mapmarker_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_skj.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/skj.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_blt_frt_round.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/blt_frt_round.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_maps_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/maps_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_yft_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/yft_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_mix.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/mix.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_new_company_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/new_company_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_yellow_mapmarker_round.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/yellow_mapmarker_round.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_mix_round.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/mix_round.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_gear_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/gear_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_new_gear_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/new_gear_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/layout_activity_cpue_menu.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/layout/activity_cpue_menu.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable-xhdpi_icon_msy_analytics.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable-xhdpi/icon_msy_analytics.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_blt_frt_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/blt_frt_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_green_mapmarker_background.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/green_mapmarker_background.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_new_cpue_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/new_cpue_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_skj_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/skj_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_calendar.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/calendar.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_gear_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/gear_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_refresh_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/refresh_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_map.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/map.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_bet_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/bet_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_calendar.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/calendar.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_new_maps_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/new_maps_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/layout_activity_dataform.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/layout/activity_dataform.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_green_mapmarker.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/green_mapmarker.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_appicon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/appicon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_distribution_icon_background.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/distribution_icon_background.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_refresh_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/refresh_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_kaw_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/kaw_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_kaw_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/kaw_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_graph_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/graph_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/layout_activity_cpue.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/layout/activity_cpue.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_mix_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/mix_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_yft_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/yft_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_yellow_mapmarker.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/yellow_mapmarker.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_new_maps_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/new_maps_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_green_mapmarker_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/green_mapmarker_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_appicon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/appicon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_new_maps_icon_round.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/new_maps_icon_round.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_fma_logo_round.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/ic_fma_logo_round.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_blt_frt.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/blt_frt.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_bet_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/bet_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_maps_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/maps_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_new_species_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/new_species_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_new_analytics_icon.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/new_analytics_icon.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/layout_activity_home.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_kaw_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/kaw_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_graph_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/graph_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_new_company_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/new_company_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_skj_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/skj_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_new_company_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/new_company_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_mix_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/mix_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_new_analytics_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/new_analytics_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_refresh_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/refresh_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_green_mapmarker_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/green_mapmarker_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable-anydpi_icon_map_location.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable-anydpi/icon_map_location.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_maps_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/maps_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_new_cpue_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/new_cpue_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_yellow_mapmarker_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/yellow_mapmarker_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_download_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/download_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_new_gear_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/new_gear_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_bet_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/bet_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_new_company_icon_background.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/new_company_icon_background.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_bet_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/bet_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/layout_activity_verification.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/layout/activity_verification.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/layout_activity_spc.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/layout/activity_spc.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_bet_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/bet_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_new_species_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/new_species_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_icon_download.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/icon_download.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_analytics_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/analytics_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_blue_mapmarker_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/blue_mapmarker_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_download_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/download_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_maps_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/maps_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_mix.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/mix.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_icon_download.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/icon_download.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_graph_icon_round.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/graph_icon_round.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_maps_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/maps_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable-xhdpi_icon_cpue_analytics.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable-xhdpi/icon_cpue_analytics.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_new_company_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/new_company_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_msd.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/msd.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_refresh_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/refresh_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_refresh_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/refresh_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_yellow_mapmarker_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/yellow_mapmarker_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_new_cpue_icon_background.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/new_cpue_icon_background.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_yft.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/yft.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_new_cpue_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/new_cpue_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_new_gear_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/new_gear_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_fma_logo.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/ic_fma_logo.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_green_mapmarker.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/green_mapmarker.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_new_company_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/new_company_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_company_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/company_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable-hdpi_icon_cpue_analytics.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable-hdpi/icon_cpue_analytics.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_new_analytics_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/new_analytics_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_yellow_mapmarker_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/yellow_mapmarker_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_yellow_mapmarker.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/yellow_mapmarker.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_company_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/company_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_distribution_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/distribution_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_fma_logo.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/ic_fma_logo.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_download_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/download_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_refresh_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/refresh_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_new_cpue_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/new_cpue_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_skj.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/skj.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_new_company_icon.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/new_company_icon.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_download_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/download_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_new_species_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/new_species_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_sample_legend.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/sample_legend.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_analytics_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/analytics_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_graph_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/graph_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_distribution_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/distribution_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_sample_legend_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/sample_legend_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_analytics_icon_background.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/analytics_icon_background.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_skj_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/skj_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_new_analytics_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/new_analytics_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_skj_round.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/skj_round.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_maps_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/maps_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_new_cpue_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/new_cpue_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_maps_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/maps_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_msd_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/msd_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_yft_background.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/yft_background.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_analytics_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/analytics_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_new_cpue_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/new_cpue_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_distribution_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/distribution_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_cpue_company.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/cpue_company.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_blue_mapmarker.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/blue_mapmarker.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_kaw.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/kaw.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_mix_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/mix_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_new_gear_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/new_gear_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_new_maps_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/new_maps_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_worldwide.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/worldwide.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_maps_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/maps_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_company_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/company_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_new_company_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/new_company_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_refresh_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/refresh_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_bet_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/bet_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_analytics_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/analytics_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_maps_icon_round.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/maps_icon_round.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_gear_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/gear_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_mix_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/mix_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_bet.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/bet.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_kaw_background.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/kaw_background.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_gear_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/gear_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_analytics_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/analytics_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_new_gear_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/new_gear_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_appicon_background.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/appicon_background.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_analytics_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/analytics_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/layout_activity_confirmation.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/layout/activity_confirmation.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_fma_logo_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/ic_fma_logo_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_yellow_mapmarker.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/yellow_mapmarker.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_msd_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/msd_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_fma_logo_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/ic_fma_logo_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/raw_phileez.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/raw/phileez"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_new_analytics_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/new_analytics_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/raw_fma_final_no_colors.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/raw/fma_final_no_colors"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_kaw_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/kaw_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/layout_activity_calendar.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/layout/activity_calendar.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_msd.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/msd.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_graph_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/graph_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_blt_frt_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/blt_frt_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_green_mapmarker.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/green_mapmarker.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_gear_icon_round.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/gear_icon_round.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_new_cpue_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/new_cpue_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_new_analytics_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/new_analytics_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_company_icon_background.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/company_icon_background.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_msd_background.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/msd_background.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_distribution_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/distribution_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_new_species_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/new_species_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_new_species_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/new_species_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_download_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/download_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_download_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/download_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_kaw.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/kaw.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_mix.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/mix.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_new_analytics_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/new_analytics_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_yft_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/yft_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_gear_icon_background.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/gear_icon_background.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_msd.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/msd.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_refresh_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/refresh_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_cpue_gear.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/cpue_gear.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_download_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/download_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_refresh_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/refresh_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_sample_legend.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/sample_legend.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_new_cpue_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/new_cpue_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_mix.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/mix.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_yft.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/yft.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_graph_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/graph_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_company_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/company_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_new_analytics_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/new_analytics_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_analytics_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/analytics_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_blt_frt_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/blt_frt_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_blt_frt_background.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/blt_frt_background.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_new_analytics_icon_background.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/new_analytics_icon_background.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_fma_logo.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/ic_fma_logo.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_sample_legend_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/sample_legend_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_green_mapmarker_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/green_mapmarker_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_new_species_icon_background.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/new_species_icon_background.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_company_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/company_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_msd.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/msd.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_green_mapmarker.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/green_mapmarker.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_sample_legend_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/sample_legend_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable-anydpi_icon_cpue_analytics.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable-anydpi/icon_cpue_analytics.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_fma_logo.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/ic_fma_logo.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/raw_mpa_geojson.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/raw/mpa_geojson"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_gear_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/gear_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_fma_logo_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/ic_fma_logo_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_gear_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/gear_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_maps_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/maps_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_skj_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/skj_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_appicon.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/appicon.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_blt_frt.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/blt_frt.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_analytics_icon_round.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/analytics_icon_round.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_kaw.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/kaw.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_fma_logo.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/ic_fma_logo.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_cpue_company.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/cpue_company.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_gear_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/gear_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable-anydpi_icon_analytics_chart.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable-anydpi/icon_analytics_chart.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_calendar.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/calendar.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_cpue_gear.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/cpue_gear.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_company_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/company_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_graph_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/graph_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_sample_legend_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/sample_legend_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_maps_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/maps_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_sample_legend.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/sample_legend.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_yellow_mapmarker_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/yellow_mapmarker_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_appicon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/appicon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_blue_mapmarker_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/blue_mapmarker_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_skj_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/skj_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_fma_logo_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/ic_fma_logo_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_bet_round.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/bet_round.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_new_maps_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/new_maps_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_blue_mapmarker_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/blue_mapmarker_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_new_gear_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/new_gear_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_blue_mapmarker.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/blue_mapmarker.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_fma_logo_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/ic_fma_logo_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_green_mapmarker_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/green_mapmarker_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_new_cpue_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/new_cpue_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_new_analytics_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/new_analytics_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_yft_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/yft_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_refresh_icon.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/refresh_icon.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_new_cpue_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/new_cpue_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_yft_round.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/yft_round.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_maps_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/maps_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_mix.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/mix.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_new_analytics_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/new_analytics_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_new_company_icon_round.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/new_company_icon_round.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_skj.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/skj.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_kaw_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/kaw_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_message.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/message.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_mix_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/mix_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_distribution_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/distribution_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_calendar.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/calendar.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_analytics_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/analytics_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_kaw_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/kaw_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_appicon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/appicon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_maps_icon.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/maps_icon.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable-mdpi_icon_msy_analytics.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable-mdpi/icon_msy_analytics.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_blue_mapmarker_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/blue_mapmarker_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_yft.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/yft.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_blt_frt_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/blt_frt_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_new_analytics_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/new_analytics_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_cpue_company.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/cpue_company.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/layout_activity_analytics.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/layout/activity_analytics.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_skj_background.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/skj_background.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_new_analytics_icon_round.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/new_analytics_icon_round.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_blue_mapmarker_round.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/blue_mapmarker_round.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_analytics.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/analytics.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_new_gear_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/new_gear_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_blue_mapmarker.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/blue_mapmarker.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_blt_frt_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/blt_frt_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_refresh_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/refresh_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/layout_activity_maps.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/layout/activity_maps.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_blue_mapmarker_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/blue_mapmarker_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_new_maps_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/new_maps_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_distribution_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/distribution_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_yft.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/yft.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_analytics_icon.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/analytics_icon.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_company_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/company_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_new_species_icon_round.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/new_species_icon_round.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_calendar.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/calendar.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_yellow_mapmarker_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/yellow_mapmarker_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_new_gear_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/new_gear_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_green_mapmarker.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/green_mapmarker.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_yellow_mapmarker.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/yellow_mapmarker.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_refresh_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/refresh_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_graph_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/graph_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_blt_frt_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/blt_frt_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_analytics_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/analytics_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_distribution_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/distribution_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_appicon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/appicon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_fma_logo.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/ic_fma_logo.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_sample_legend_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/sample_legend_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable-xxhdpi_icon_msy_analytics.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable-xxhdpi/icon_msy_analytics.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_download_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/download_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_purseseine_gradient.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/purseseine_gradient.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_green_mapmarker_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/green_mapmarker_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_blt_frt.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/blt_frt.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_maps_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/maps_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/layout_activity_speciesinfo.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/layout/activity_speciesinfo.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_gear_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/gear_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_distribution_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/distribution_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/layout_activity_homenonbfar.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/layout/activity_homenonbfar.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_msd_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/msd_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_analytics_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/analytics_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_new_cpue_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/new_cpue_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_blue_mapmarker_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/blue_mapmarker_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_blue_mapmarker.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/blue_mapmarker.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_bet.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/bet.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_company_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/company_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_sample_legend.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/sample_legend.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_msd_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/msd_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_appicon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/appicon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_cpue_gear.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/cpue_gear.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_sample_legend_round.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/sample_legend_round.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_new_species_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/new_species_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_gear_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/gear_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_msd_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/msd_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_gear_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/gear_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable-mdpi_icon_cpue_analytics.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable-mdpi/icon_cpue_analytics.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_computer.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/computer.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_handline_gradient.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/handline_gradient.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_download_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/download_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_mix_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/mix_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_msd_round.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-anydpi-v26/msd_round.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_bet_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/bet_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_new_analytics_icon.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/new_analytics_icon.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_gear_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/gear_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_company_icon_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/company_icon_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_appicon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/appicon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_yellow_mapmarker_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxxhdpi/yellow_mapmarker_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-hdpi_yft_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-hdpi/yft_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_sample_legend_background.xml.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/sample_legend_background.xml"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_blt_frt.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/blt_frt.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_skj_round.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/skj_round.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable-xxhdpi_icon_map_location.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable-xxhdpi/icon_map_location.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_fma_logo_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/ic_fma_logo_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-mdpi_new_analytics_icon_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-mdpi/new_analytics_icon_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xhdpi_blue_mapmarker_foreground.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xhdpi/blue_mapmarker_foreground.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_msd.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/mipmap-xxhdpi/msd.png"
+    },
+    {
+        "merged": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/build/intermediates/res/merged/debug/drawable_line_chart.png.flat",
+        "source": "/home/msunfstdi/Desktop/MOBILEIDS/mobile-ids/app/src/main/res/drawable/line_chart.png"
+    }
+]
